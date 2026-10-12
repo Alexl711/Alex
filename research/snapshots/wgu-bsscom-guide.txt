@@ -1,0 +1,956 @@
+Program Guidebook
+
+Bachelor of Science, Supply Chain and Operations Management
+
+Program Code: BSSCOM Catalog Version: 202605 Published Date: 12/29/2025
+
+            The Bachelor of Science in Supply Chain and Operations Management (BSSCOM) degree is a
+            competency-based degree program that develops operational skills that can be applied to a variety of
+            sectors, such as corporations, small businesses, government agencies, nonprofits, healthcare, and
+            educational institutions. The BSSCOM program addresses business needs and helps business leaders
+            overcome challenges by equipping them with skills in data analysis, process review, critical thinking, and
+            execution of operational improvements. The competencies in this program measure in-demand skills to
+            prepare learners to create and maintain a bridge between business management and technology,
+            operations, and supply chain functions (distribution, logistics, transportation, warehousing, inventory
+            management, procurement, and demand planning).Through the program learners will learn how to ask
+            critical business questions, form hypotheses that can be proven or disproven by data, translate raw data
+            into usable and valuable business intelligence, and tell a business story based on data that provides
+            companies with a competitive edge in their respective industries. The program concludes with an
+            experiential learning capstone course where learners will deliver an operational project that showcases
+            the skills they acquired throughout the program. The BSSCOM program includes three embedded
+            certificates: Business Analytics, Operations Excellence, and Solutions Design Thinking. The three
+            certificates are included in the Degree Plan and may be shared digitally in the WGU Achievement Wallet.
+            This program also offers learners the option of earning recognized third-party professional credentials
+            and certificates as they progress in their degree.
+Understanding the Competency-Based Approach
+ How do competency-based programs like those offered at Western Governors University (WGU) work?
+ Unlike traditional universities, WGU does not award degrees based on completing a certain number of
+ credit hours or a specific set of required courses. Instead, you will earn your degree by demonstrating your
+ skills, knowledge, and understanding of essential concepts.
+
+ Progress through a degree program is measured not by the amount of time you spend in class but by your
+ ability to demonstrate competency as you complete required courses along a Standard Path. To help you
+ acquire the knowledge and skills you need to demonstrate competency and complete your courses and
+ program, WGU provides a rich array of learning resources. Your program mentor will work closely with you
+ to help you understand your program's requirements and help you create a plan for completing your
+ courses. You will also work closely with course instructors as you engage in each course. As subject
+ matter experts, course instructors will guide you through the content you must learn to demonstrate
+ competency through the course assessments.
+
+ The benefit of this competency-based system is that it enables students who are knowledgeable about a
+ particular subject to make accelerated progress toward completing a degree, even if they lack college
+ experience. You may have gained skills and knowledge of a subject while on the job, accumulated wisdom
+ through years of life experience, or already taken a course on a particular subject. WGU will award your
+ degree based on the skills and knowledge you possess and can demonstrate—not the number of hours
+ spent in a classroom.
+
+Accreditation
+ Western Governors University is the only university in the history of American higher education to have
+ earned initial accreditation from multiple regional accrediting commissions at once—earning simultaneous
+ accreditation from ACCJC, HLC, NWCCU, and WASC. The university’s accreditation from the Northwest
+ Commission on Colleges and Universities (NWCCU) was reaffirmed in March of 2024. In addition to
+ institution-level accreditation, each school has at least one program that is accredited by a programmatic
+ accreditation. All programmatic accreditations are managed by the Academic Engagement department.
+ Contact compliance@wgu.edu for additional information.
+
+The Degree Plan
+ The focus of your program is your personalized Degree Plan. The Degree Plan is a detailed blueprint of the
+ courses you will need to complete in order to earn your degree. The Degree Plan also lays out the
+ accompanying learning resources and assessments that compose your program. The list of courses in the
+ Degree Plan is often referred to as the standard path. The amount of time it takes to complete your
+ program depends on both the amount of new information you need to learn and the amount of time you
+ plan to devote each week to study. Your program mentor and course instructors will help you assess your
+ strengths and development needs to establish a study plan.
+
+ Students vary widely in the specific skills and information they need to learn. For example, some students
+ may be highly knowledgeable in a particular subject matter and would not need to engage in new learning
+ opportunities. Other students may find that portions of the program require them to learn new information
+ and that they need to take an online class or participate in a study module to acquire the knowledge and
+ skills needed to fulfill program competencies in that area. Some individuals may be able to devote as little
+ as 15–20 hours per week to the program, while others may need to devote more time. For this reason,
+ pre-assessments are there to help your program mentor form a profile of your prior knowledge and create
+ a personalized Degree Plan.
+How You Will Interact with Faculty
+  At WGU, faculty serve in specialized roles, and they will work with you individually to provide the guidance,
+  instruction, and support you will need to succeed and graduate. As a student, it is important for you to take
+  advantage of this support. It is key to your progress and ultimate success. Upon your enrollment, you will
+  be assigned a program mentor—an expert in your field of study who will provide you with regular
+  program-level guidance and support from the day you start until the day you graduate. Your program
+  mentor will set up regular telephone appointments (weekly at first) with you, which you will be expected to
+  keep. The mentor will review program competencies with you and work with you to develop a plan and
+  schedule for your coursework. Your program mentor will serve as your main point of contact throughout
+  your program—helping you set weekly study goals, recommending specific learning materials, telling you
+  what to expect in courses, and keeping you motivated. In addition to regular calls, your program mentor is
+  available to help you resolve questions and concerns as they arise.
+
+  You will also be assigned to a course instructor for each course. Course instructors are doctoral-level
+  subject matter experts who will assist your learning in each individual course. When you begin a new
+  course, your assigned course instructor will actively monitor your progress and will be in touch to offer
+  one-on-one instruction and to provide you with information about webinars, cohort sessions, and other
+  learning opportunities available to help you acquire the competencies you need to master the course. Your
+  course instructor can discuss your learning for the course, help you find answers to content questions, and
+  give you the tools to navigate the course successfully. In addition, you will communicate with course
+  instructors by posting in the online learning community and participating in live discussion sessions such as
+  webinars and cohorts.
+
+  For many of the courses at WGU, you will be required to complete performance assessments. These
+  include reports, papers, presentations, and projects that let you demonstrate your mastery of the required
+  competencies. A separate group of faculty members, called evaluators, will review your work to determine
+  whether it meets requirements. Evaluators are also subject matter experts in their field of evaluation. If your
+  assessment needs further work before it “passes,” these evaluators, who review your work anonymously,
+  will provide you with instructional feedback to help you meet evaluation standards and allow you to
+  advance.
+
+Connecting with Other Mentors and Fellow Students
+  As you proceed through your Degree Plan, you will have direct contact with multiple faculty members.
+  These communications can take a variety of forms, including participation in one-on-one discussions, chats
+  in the learning communities, and live cohort and webinar opportunities. As a WGU student, you will have
+  access to your own personal MyWGU Student Portal, which will provide a gateway to your courses of
+  study, learning resources, and learning communities where you will interact with faculty and other students.
+
+  The learning resources in each course are specifically designed to support you as you develop
+  competencies in preparation for your assessments. These learning resources may include reading
+  materials, videos, tutorials, cohort opportunities, community discussions, and live discussions that are
+  guided by course instructors who are experts in their field. You will access your program community during
+  your orientation course to network with peers who are enrolled in your program and to receive continued
+  support through professional enrichment and program-specific chats, blogs, and discussions. WGU also
+  provides Student Services associates to help you and your program mentor solve any special problems
+  that may arise.
+
+Orientation
+  The WGU Orientation course will introduce you to the fundamentals of WGU’s competency-based
+  education (CBE) and the expectations, policies, and protocols for students enrolled in a WGU degree
+  program. Orientation will introduce you to WGU’s wide range of support resources and success centers.
+  It also will provide you with study strategies recommended by current students and faculty that will help you
+  succeed as a WGU student. Orientation ends with your first assessment at WGU, providing an opportunity
+  to experience WGU’s performance assessment process before you begin your degree-focused
+  coursework. The Orientation course must be completed before you can start your first term at WGU.
+
+Transferability of Prior College Coursework
+  Because WGU is a competency-based institution, it does not award degrees based on credits but rather on
+  demonstration of competency. WGU undergraduate programs may accept transfer credits or apply a
+  Requirement Satisfied (RS) in some cases. Refer to your specific program transfer guidelines to determine
+  what can be satisfied by previously earned college credits. Students entering graduate programs must
+  have their undergraduate degree transcripts verified before being admitted to WGU. In addition to a
+  program’s standard course path, there may be additional state-specific requirements.
+
+ Click here for the Student Handbook
+ http://cm.wgu.edu/
+
+  WGU does not waive any requirements based on a student's professional experience and does not
+  perform a "résumé review" or "portfolio review" that will automatically waive any degree requirements.
+  Degree requirements and transferability rules are subject to change in order to keep the degree content
+  relevant and current.
+
+  Remember, WGU's competency-based approach lets you take advantage of your knowledge and skills,
+  regardless of how you obtained them. Even when you do not directly receive credit, the knowledge you
+  possess may help you accelerate the time it takes to complete your degree program.
+
+Continuous Enrollment, On Time Progress, and Satisfactory Academic
+Progress
+  WGU is a “continuous enrollment” institution, which means you will be automatically enrolled in each of
+  your new terms while you are at WGU. Each term is six months long. Longer terms and continuous
+  enrollment allow you to focus on your studies without the hassle of unnatural breaks between terms that
+  you would experience at a more traditional university. At the end of every six-month term, you and your
+  program mentor will review the progress you have made and revise your Degree Plan for your next six-
+  month term.
+
+  WGU requires that students make measurable progress toward the completion of their degree programs
+  every term. We call this “On-Time Progress,” denoting that you are on track and making progress toward
+  on-time graduation. As full-time students, graduate students must enroll in at least 8 competency units
+  each term, and undergraduate students must enroll in at least 12 competency units each term. Completing
+  at least these minimum enrollments is essential to On-Time Progress and serves as a baseline from which
+  you may accelerate your program. We measure your progress based onthe courses you are able to pass,
+  not on your accumulation of credit hours or course grades. Every time you pass a course, you are
+  demonstrating that you have mastered skills and knowledge in your degree program. For comparison to
+  traditional grading systems, passing a course means you have demonstrated competency equivalent to a
+  “B” grade or better.
+
+  WGU assigns competency units to each course in order to track your progress through the program. A
+  competency unit is equivalent to one semester credit of learning. Some courses may be assigned 3
+  competency units while others may be as large as 12 competency units.
+
+  Satisfactory Academic Progress (SAP) is particularly important to students on financial aid because you
+  must achieve SAP in order to maintain eligibility for financial aid. We will measure your SAP quantitatively
+  by reviewing the number of competency units you have completed each term. In order to remain in good
+ academic standing, you must complete at least 66.67% of the units you attempt over the length of your
+ program—including any courses you add to your term to accelerate your progress. Additionally, during
+ your first term at WGU you must pass at least 3 competency units in order to remain eligible for financial
+ aid. We know that SAP is complex, so please contact a financial aid counselor should you have additional
+ questions. *Please note: The Endorsement Preparation Program in Educational Leadership is not eligible
+ for federal financial aid.
+
+Courses
+
+ Your Degree Plan includes courses needed to complete your program. To obtain your degree, you must
+ demonstrate your skills and knowledge by completing each course's assessment(s). You may be asked to
+ demonstrate competency in a course in several different ways, including proctored exams, projects,
+ essays, research papers, and simulations, among others. Certifications verified through third parties may
+ also be included in your program as a way to demonstrate competency. More detailed information about
+ each assessment is provided in the course of study.
+
+
+Learning Resources
+ WGU works with many different educational partners, including enterprises, publishers, training
+ companies, and higher educational institutions, to provide high-quality and effective learning resources that
+ match the competencies you are developing. These vary in type, and may be combined to create the best
+ learning experience for your course. A learning resource can be an e-textbook, online module, study guide,
+ simulation, virtual lab, tutorial, or a combination of these. The cost of most learning resources are included
+ in your tuition and Learning Resource Fee. They can be accessed or enrolled for through your courses.
+ Some degree-specific resources are not covered by your tuition, and you will need to cover those costs
+ separately. WGU also provides a robust library to help you obtain additional learning resources, as
+ needed.
+
+ Mobile Compatibility:
+
+ The following Student Handbook article provides additional details about the current state of mobile
+ compatibility for learning resources at WGU.
+ https://cm
+  Mobile .Access
+            wgu.edu/t5/Frequently
+                     for Learning-Asked -Questions/Can-I-use-my-mobile-device-for-learning-resources/ta-p/396
+                                     Resources
+
+
+Standard Path
+ As previously mentioned, competency units (CUs) have been assigned to each course in order to measure
+ your academic progress. If you are an undergraduate student, you will be expected to enroll in a minimum
+ of 12 competency units each term. Graduate students are expected to enroll in a minimum of 8
+ competency units each term. A standard plan for a student for this program who entered WGU without any
+ transfer units would look similar to the one on the following page. Your personal progress can be faster, but
+ your pace will be determined by the extent of your transfer units, your time commitment, and your
+ determination to proceed at a faster rate.
+         Standard Path for Bachelor of Science, Supply Chain and Operations
+                                     Management
+         Course Description             CUs                       Term
+
+Organizational Behavior                  3                         1
+
+
+Critical Thinking: Reason and
+                                         3                         1
+Evidence
+
+Fundamentals of Spreadsheets and
+                                         3                         1
+Data Presentations
+
+
+Discovering Data                         3                         1
+
+
+Principles of Management                 4                         2
+
+
+Project Management                       3                         2
+
+
+Composition: Successful
+                                         3                         2
+Self-Expression
+
+
+Values-Based Leadership                  3                         2
+
+
+Concepts in Marketing, Sales, and
+                                         3                         3
+Customer Contact
+
+
+Applied Probability and Statistics       3                         3
+
+
+Exploring Data                           3                         3
+
+
+Change Management                        3                         3
+
+
+Design Thinking for Business             3                         4
+
+
+Introduction to Business Accounting      3                         4
+
+
+Analyzing and Visualizing Data           3                         4
+
+
+Emotional and Cultural Intelligence      3                         4
+
+
+Introduction to Communication:
+                                         3                         5
+Connecting with Others
+Data Applications                      3   5
+
+
+Principles of Economics                3   5
+
+
+Business Ethics                        3   5
+
+Business Environment Applications I:
+Business Structures and Legal          2   6
+Environment
+
+Managing Operations                    3   6
+
+
+Introduction to Business Finance       3   6
+
+
+Health, Fitness, and Wellness          4   6
+
+
+Introduction to Sociology              3   7
+
+
+Applied Algebra                        3   7
+
+
+Transportation, Logistics, and
+                                       3   7
+Distribution
+
+Managing in a Global Business
+                                       3   7
+Environment
+
+World History: Diverse Cultures and
+                                       3   8
+Global Connections
+
+
+Global Supply Chain Management         3   8
+
+
+Quality, Continuous Improvement,
+                                       3   8
+and Lean Six Sigma
+
+
+Business Simulation                    4   8
+
+
+Functions of Human Resource
+                                       3   9
+Management
+
+21st Century Operations and Supply
+                                       3   9
+Chain
+
+
+Integrated Physical Sciences           3   9
+Solutions Design and Visualization
+                                                      3                                     9
+Capstone
+
+
+Total CUs                                             110
+
+
+Changes to Curriculum
+WGU publishes an Institutional Catalog, which describes the academic requirements of each degree
+program. Although students are required to complete the program version current at the time of their
+enrollment, WGU may modify requirements and course offerings within that version of the program to
+maintain the currency and relevance of WGU’s competencies and programs. When program
+requirements are updated, students readmitting after withdrawal from the university will be expected to
+re-enter into the most current catalog version of the program.
+Areas of Study for Bachelor of Science, Supply Chain and Operations
+Management
+The following section includes the areas of study in the program, with their associated courses. Your
+specific learning resources and level of instructional support will vary based on the individual
+competencies you bring to the program and your confidence in developing the knowledge, skills, and
+abilities required in each area of the degree. The Degree Plan and learning resources are dynamic, so
+you need to review your Degree Plan and seek the advice of your mentor regarding the resources before
+you purchase them.
+Business Management
+Organizational Behavior
+ Organizational Behavior and Leadership explores how to lead and manage effectively in diverse business environments. Students
+ are asked to demonstrate the ability to apply organizational leadership theories and management strategies in a series of
+ scenario-based problems.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The graduate analyzes the culture within an organization to determine how to work effectively within that organization.
+  ● The graduate can analyze leadership theories, methods, and tools in given situations and select the appropriate behavior of
+   the leader.
+  ● The graduate can describe the effects of specified influences on individual behavior.
+  ● The graduate can determine which type of team and team leadership should be used to accomplish a task or project.
+  ● The graduate can develop and recommend how to implement effective performance evaluation processes.
+  ● The graduate can recommend appropriate principles or techniques for guiding the development of a group.
+
+
+Project Management
+ Project Management prepares you to manage projects from start to finish within any organization structure. The course
+ represents a view into different project-management methods and delves into topics such as project profiling and phases,
+ constraints, building the project team, scheduling, and risk. You will be able to grasp the full scope of projects you may
+ work with on in the future, and apply proper management approaches to complete a project. The course features practice in
+ each of the project phases as you learn how to strategically apply project-management tools and techniques to help
+ organizations achieve their goals.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The learner applies elements of project planning to prepare key documents of a project plan.
+  ● The learner constructs a project scheduling network diagram including the identification of the critical path.
+  ● The learner describes the project life cycle, including how project constraints will impact a project.
+  ● The learner explains how different types of project-management methods are used.
+  ● The learner explains how project management helps organizations achieve their goals.
+  ● The learner explains key activities for executing, monitoring and controlling, and closing projects.
+  ● The learner explains the criteria and methods used for project selection.
+
+
+Values-Based Leadership
+ Values-Based Leadership guides students to learn by reflection, design, and scenario planning. Through a combination of
+ theory, reflection, value alignment, and practice, the course helps students examine and understand values-based leadership
+ and explore foundations in creating a culture of care. In this course, students are given the opportunity to identify and
+ define their personal values through an assessment and reflection process. Students then evaluate business cases to practice
+ mapping the influence of values on their own leadership. In this course, students also participate in scenario planning,
+ where they can practice implementing their values in their daily routine (i.e., behaviors) and then in a leadership setting.
+ The course illustrates how values-driven leadership is used in goal setting as well as problem-solving at an organizational
+ level. There are no prerequisites for this course.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The learner demonstrates how their leadership abilities, including active listening, influence, and ethical responsibility,
+   solve problems and deliver results within an organization.
+  ● The learner describes how interpersonal skills are applied to effectively collaborate, communicate, and lead within a team
+   and across an organization.
+  ● The learner explains how the leadership of cultures fosters diversity, inclusion, ethics, and problem-solving.
+  ● The learner identifies their personal values, including honesty, integrity, respect, emotional intelligence, and ethical
+   responsibility, to develop self-awareness through self-assessment.
+
+
+Change Management
+ Change Management provides an understanding of change and an overview of successfully managing change using various methods
+ and tools. Emphasizing change theories and various best practices, this course covers how to recognize and implement change
+ using an array of other effective strategies, including those related to innovation and leadership. Other topics include
+ approaches to change, diagnosing and planning for change, implementing change, and sustaining change.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The graduate describes different innovation strategies and the role leaders play in innovation.
+  ● The graduate explains how learning organizations develop and how learning organizations and traditional organizations
+   approach change differently.
+  ● The graduate explains how organizations diagnose the need for change and the approaches for implementing change.
+  ● The graduate explains the strategies, principles, roles, and models for sustaining change.
+  ● The graduate explains the various approaches to implementing change and the roles that leaders and other stakeholders
+   fulfill.
+  ● The graduate summarizes the theories related to change management.
+
+
+Business Ethics
+ Business Ethics is designed to enable students to identify the ethical and socially responsible courses of action available
+ through the exploration of various scenarios in business. Students will also learn to develop appropriate ethics guidelines
+ for a business. This course has no prerequisites.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The graduate analyzes ethical and socially responsible courses of action in a given business situation.
+  ● The graduate analyzes ethical considerations that shape business leadership.
+  ● The graduate applies ethical principles to employment.
+  ● The graduate applies ethical principles to environmental concerns confronting business.
+  ● The graduate applies ethical principles to international business.
+  ● The graduate evaluates ethical policies in a given business scenario.
+General Education
+Critical Thinking: Reason and Evidence
+ In this course you will learn key critical thinking concepts and how to apply them in the analysis and evaluation of reasons
+ and evidence. The course examines the basic components of an argument, the credibility of evidence sources, the impact of
+ bias, and how to construct an argument that provides good support for a claim. The course consists of an introduction and
+ four major sections. Each section includes learning opportunities through readings, videos, audio, and other relevant
+ resources. Assessment activities with feedback also provide opportunities to check your learning, practice, and show how well
+ you understand course content. Because the course is self-paced, you may move through the material as quickly or as slowly as
+you need to gain proficiency in the four competencies that will be covered in the final assessment. If you have no prior
+knowledge or experience, you can expect to spend 30-40 hours on the course content.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner evaluates bias and its impact.
+ ● The learner evaluates evidence based on source credibility.
+ ● The learner evaluates the quality of an argument.
+ ● The learner makes claims based on evidence.
+
+
+Composition: Successful Self-Expression
+Welcome to Composition: Successful Self-Expression! In this course, you will focus on four main topics: professional writing
+for a cross-cultural audience, narrowing research topics and questions, researching for content to support a topic, and
+referencing research sources. Each section includes learning opportunities through readings, videos, audio, and other
+relevant resources. Assessment activities with feedback also provide opportunities to check your learning, practice, and show
+how well you understand course content. Because the course is self-paced, you may move through the material as quickly or as
+slowly as you need to gain proficiency in the seven competencies that will be covered in the final assessment. If you have no
+prior knowledge or experience, you can expect to spend 30-40 hours on the course content. You will demonstrate competency
+through a performance assessment. There is no prerequisite for this course and there is no specific technical knowledge
+needed.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner composes a written message with language appropriate for cross-cultural communication.
+ ● The learner incorporates research to support a position or idea.
+ ● The learner incorporates self-expression in written communication.
+ ● The learner researches valid and reliable sources.
+ ● The learner writes a message using an effective communication approach for a given situation.
+ ● The learner writes a reference list.
+ ● The learner writes in a professional manner for a given scenario.
+
+
+Applied Probability and Statistics
+Applied Probability and Statistics is designed to help students develop competence in the fundamental concepts of basic
+statistics including: introductory algebra and graphing; descriptive statistics; regression and correlation; and probability.
+Statistical data and probability are often used in everyday life, science, business, information technology, and educational
+settings to make informed decisions about the validity of studies and the effect of data on decisions. This course discusses
+what constitutes sound research design and how to appropriately model phenomena using statistical data. Additionally, the
+content covers simple probability calculations, based on events that occur in the business and IT industries. No
+prerequisites are required for this course.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The graduate applies principles and methods of probability-based mathematics to explain and solve problems.
+ ● The graduate applies the operations, processes, and procedures of basic algebra to evaluate quantitative expressions, and to
+  solve equations and inequalities.
+ ● The graduate applies the operations, processes, and procedures of fractions, decimals, and percentages to evaluate
+  quantitative expressions.
+ ● The graduate evaluates categorical and quantitative data pertaining to a single variable using appropriate graphical displays
+  and numerical measures.
+ ● The graduate evaluates the relationship between two quantitative variables through correlation and regression.
+ ● The graduate evaluates the relationship between two variables through interpretation of visual displays and numerical
+  measures.
+
+
+Design Thinking for Business
+Design Thinking for Business examines the design thinking methodology for solving complex problems. This course introduces
+students to design thinking as a human-centered approach to problem-solving and innovation that draws upon empathy and
+creativity to develop solutions to complex problems. Students will explore the principles and stages of design thinking and
+analyze the use of design thinking in developing solutions through real-world scenarios.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner analyzes problems and solutions using design thinking methodology.
+ ● The learner describes the role of design thinking in problem solving.
+ ● The learner proposes a solution to a complex problem using design thinking.
+
+
+Introduction to Communication: Connecting with Others
+Welcome to Introduction to Communication: Connecting with Others! It may seem like common knowledge that communication skills
+are important, and that communicating with others is inescapable in our everyday lives. While this may appear simplistic, the
+study of communication is actually complex, dynamic, and multifaceted. Strong communication skills are invaluable to
+strengthening a multitude of aspects of life. Specifically, this course will focus on communication in the professional
+setting, and present material from multiple vantage points, including communicating with others in a variety of contexts,
+across situations, and with diverse populations. Upon completion, you will have a deeper understanding of both your own and
+others’ communication behaviors, and a toolbox of effective behaviors to enhance your experience in the workplace.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner implements appropriate communication styles based on audience and setting.
+ ● The learner uses communication strategies for managing conflict.
+ ● The learner uses communication strategies to influence others.
+
+
+Health, Fitness, and Wellness
+Health, Fitness, and Wellness focuses on the importance and foundations of good health and physical fitness—particularly for
+children and adolescents—addressing health, nutrition, fitness, and substance use and abuse.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The graduate identifies factors that influence mental, emotional, and social wellness.
+ ● The graduate identifies the application of the core competencies of social and emotional learning.
+ ● The graduate identifies the influence of disease, fitness, and lifestyle on the body.
+ ● The graduate identifies the principles of nutrition and the components of a healthy diet.
+
+
+Introduction to Sociology
+This course teaches students to think like sociologists, or, in other words, to see and understand the hidden rules, or
+norms, by which people live, and how they free or restrain behavior. Students will learn about socializing institutions, such
+as schools and families, as well as workplace organizations and governments. Participants will also learn how people deviate
+from the rules by challenging norms and how such behavior may result in social change, either on a large scale or within
+small groups.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The graduate explains how societies are stratified across various social statuses.
+ ● The graduate explains major perspectives and key contributors to the development of sociology.
+ ● The graduate explains reciprocal relationships between social institutions and individuals.
+ ● The graduate explains the constructs of conformity to and deviance from social norms.
+ ● The graduate identifies components of culture and socialization as they relate to individuals in society.
+
+
+Applied Algebra
+Applied Algebra is designed to help you develop competence in working with functions, the algebra of functions, and using
+some applied properties of functions. You will start learning about how we can apply different kinds of functions to
+relevant, real-life examples. From there, the algebra of several families of functions will be explored, including linear,
+polynomial, exponential, and logistic functions. You will also learn about relevant, applicable mathematical properties of
+each family of functions, including rate of change, concavity, maximizing/minimizing, and asymptotes. These properties will
+be used to solve problems related to your major and make sense of everyday living problems. Students should complete Applied
+Probability and Statistics or its equivalent prior to engaging in Applied Algebra.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner analyzes graphical depictions of real-world situations using functional properties.
+ ● The learner applies exponential functions and their properties to real-world problems.
+ ● The learner applies linear functions and their properties to real-world problems.
+ ● The learner applies logistic functions and their properties to real-world problems.
+ ● The learner applies polynomial functions and their properties to real-world problems.
+ ● The learner interprets the real-world meaning of various functions based on notation, graphical representations, and data
+  representations.
+ ● The learner verifies the validity of a given model.
+
+
+World History: Diverse Cultures and Global Connections
+This is World History: Diverse Cultures and Global Connections. In this course, you will focus on three main topics—cultural
+and religious diversity; pandemics; and the relationship of empires and nation states—as well as the skills of identifying
+root causes, explaining causes and effects, and analyzing complex systems. This course consists of an introduction and four
+major sections. Each section includes learning opportunities through reading, images, videos, and other relevant resources.
+Assessment activities with feedback also provide opportunities to practice and check how well you understand the content.
+Because the course is self-paced, you may move through the material as quickly or as slowly as you need to, with the goal of
+demonstrating proficiency in the four competencies covered in the final assessment. If you have no prior knowledge of this
+material, you can expect to spend 30-40 hours on the course content.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner analyzes the role of human actions in the spread of disease.
+ ● The learner differentiates among diverse cultural and religious customs and practices.
+ ● The learner explains the factors that contributed to the development of nation states.
+ ● The learner explains the factors that contributed to the rise and fall of empires.
+
+
+Integrated Physical Sciences
+This course provides students with an overview of the basic principles and unifying ideas of the physical sciences: physics,
+chemistry, and earth sciences. Course materials focus on scientific reasoning and practical, everyday applications of
+physical science concepts to help students integrate conceptual knowledge with practical skills.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+  ● The learner describes the nature and process of science.
+  ● The learner describes the underlying organization, interactions, and processes within the Earth system including the Earth's
+   structure and atmosphere, and Earth's interactions within the solar system.
+  ● The learner examines applications of key chemistry concepts including the structure of matter and the behavior and
+   conservation of matter in chemical reactions.
+  ● The learner examines applications of physics including fundamental concepts such as forces, motion, energy, and waves.
+Business Core
+Fundamentals of Spreadsheets and Data Presentations
+ Fundamentals of Spreadsheets and Data Presentations offers learners an overview of the use of spreadsheet functions and
+ methods for presenting data within spreadsheets. Learners will have the opportunity to explore features and uses of MS Excel
+ and apply the tools to situations they may encounter while studying in their program. They will also be introduced to real
+ world uses and tools to collect, organize and present data.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The learner creates a presentation from a spreadsheet dataset.
+  ● The learner performs common spreadsheet tasks requiring basic formatting, formulas, and functions.
+  ● The learner prepares data for analysis.
+
+
+Principles of Management
+ Principles of Management provides students with an introductory look at the discipline of management and its context within
+ the business environment. Students of this course build on previously mastered competencies by taking a more in-depth look at
+ management as a discipline and how it differs from leadership while further exploring the importance of communication within
+ business. This course provides students with a business generalist overview in the areas of strategic planning, total
+ quality, entrepreneurship, conflict and change, human resource management, diversity, and organizational structure.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The graduate can correctly apply principles of human resource management in a given situation.
+  ● The graduate can describe how to establish a total quality management program in a product operation and in a service
+   operation.
+  ● The graduate can describe how to establish and promote an entrepreneurial emphasis within an organization.
+  ● The graduate can explain the strategic planning process.
+  ● The graduate can recommend an organizational structure to match a given organization's situation.
+  ● The graduate can recommend effective techniques for managing conflict and change.
+  ● The graduate responds appropriately to diversity issues in the workplace.
+
+
+Concepts in Marketing, Sales, and Customer Contact
+ Concepts in Marketing, Sales, and Customer Contact introduces students to the discipline of marketing and its role within the
+ strategic and operational environments of a business. This course covers fundamental knowledge in the area of marketing
+ planning, including the marketing mix, while also describing basic concepts of brand management, digital marketing, customer
+ relationship management, and personal selling and negotiating. All of this helps students identify the role of marketing
+ within an organization. This course provides students with a business generalist overview of the field of marketing and an
+ exploration of the marketing major.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The graduate describes basic elements used in marketing planning.
+  ● The graduate describes how strategic marketing influences the overall success of a business.
+  ● The graduate identifies personal selling and negotiating strategies within the sales management process.
+Introduction to Business Accounting
+Introduction to Business Accounting provides students with an introduction to the discipline of accounting and its context
+within the business environment. This course will help students gain a fundamental knowledge of the role of financial and
+managerial accounting and the use of financial statements, budgeting, and managing costs and profits in business. This course
+is designed for business generalist students. There are no prerequisites for this course.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner explains how costs and profits are managed in business.
+ ● The learner explains the basic methods of budgeting in business.
+ ● The learner explains the role of financial and managerial accounting in business.
+ ● The learner explains the uses of financial statements in business.
+
+
+Emotional and Cultural Intelligence
+Success in today’s workplace requires more than technical skill. It depends on emotional awareness, cultural understanding,
+and ethical decision-making. This course will help you strengthen your ability to communicate effectively, connect across
+differences, and lead with empathy. These are not soft skills. They are the professional capabilities employers value most
+and the human qualities that technology can never replace.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The graduate applies emotional intelligence (EI) to improve intrapersonal and interpersonal interactions.
+ ● The graduate demonstrates cultural intelligence (CI) within multicultural and contemporary business situations.
+
+
+Principles of Economics
+Principles of Economics introduces students to foundational economic theories on markets and market behavior. This
+information is valuable to students pursuing careers involving decision making and is applicable to any industry. This course
+has three competencies: The Economic Way of Thinking, Microeconomics, and Macroeconomics. In the first, economics is defined,
+and fundamental economic principles are introduced. Microeconomics develops the supply and demand model and demonstrates how
+it is used to understand business interactions and to make public policy decisions. The competency includes supply, demand,
+elasticity, efficiency, market failure, costs, production, and market structure. Macroeconomics focuses on the measurement
+and performance of the nation economy. The competency includes macroeconomic variables, aggregate supply, aggregate demand,
+money, monetary policy, fiscal policy, and international trade.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The graduate explains concepts in macroeconomics used in business and public policy decisions.
+ ● The graduate explains concepts in microeconomics used in business and public policy decisions.
+ ● The graduate explains fundamental economic principles used in microeconomics and macroeconomics.
+
+
+Business Environment Applications I: Business Structures and Legal Environment
+Business Environment Applications 1 provides students with a generalist overview of the business environment and a deeper
+look at a number of topics that make up the non-discipline areas of business which are required for a business person to be
+successful within any business environment. The first part of the course focuses on knowledge about organizations and how
+people operate within organizations, including the areas of organizational theory, structure, and effectiveness. The course
+then looks at business from a legal perspective with an overview of the legal environment of business. The course will
+prepare the student to consider specific legal situations and to make legal and ethical decisions related to those
+situations.
+ This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The graduate describes common legal considerations for the creation and operation of a business organization.
+  ● The graduate explains how the structure of an organization impacts its effectiveness in the context of critical
+   circumstances.
+
+
+Introduction to Business Finance
+ Introduction to Business Finance provides students with an introductory look at the discipline of finance and its context
+ within the business environment. This course will help students gain an understanding of the systems, structure, roles, and
+ impact of finance in business. Students will also gain an understanding of the uses of financial ratios, the application of
+ the time value of money concepts, and capital budgeting in business. This course provides the student a business generalist
+ overview of the field of finance. The prerequisite for this course is Introduction to Business Accounting.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The learner describes capital budgeting.
+  ● The learner describes the systems, structure, roles, and impact of finance in business.
+  ● The learner describes the uses of financial ratios to manage a business.
+  ● The learner explains the application of time value of money concepts to business.
+
+
+Managing in a Global Business Environment
+ Managing in a Global Business Environment provides students with a generalist overview of business from a global perspective,
+ while also developing basic skills and knowledge to help them make strategic decisions, communicate, and develop personal
+ relationships in a global environment. Business today is by its very nature a global environment, and individuals working in
+ business will experience the global nature of business as they progress through their careers. This course builds on
+ previously acquired competencies by providing an overview of U.S. federal laws in relation to doing business in a global
+ environment.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The graduate compares the effectiveness of business strategies in the global business environment.
+  ● The graduate defines globalization and its major driving forces.
+  ● The graduate describes how financial and operational practices influence global business.
+  ● The graduate describes technologies and trends in the global business environment.
+  ● The graduate describes the regulatory and ethical aspects of global business.
+
+
+Business Simulation
+ This course ties together all the skills and knowledge covered in the business courses and allows the student to prove their
+ mastery of the competencies by applying them in a simulated business environment. This course will help take the student's
+ knowledge and skills from the theoretical to applicable.
+  This course covers the following competencies:
+  ● The graduate applies the competencies from across the business core curriculum, demonstrating the ability to lead the
+   implementation of the mission, strategy, and goals of an organization.
+Business
+Discovering Data
+ Discovering Data introduces analytical concepts, processes, and tools used in the field of business analytics. This course
+ explores the importance of asking effective questions to collect the right data. Students will examine using analytical
+ thinking to organize, analyze, and share data to drive decision-making. This course provides students the opportunity to work
+ toward the Google Data Analytics Professional Certificate and the WGU Business Analysis Certificate. Introduction to
+ Spreadsheets is a prerequisite for this course.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner describes key analytical concepts, processes, and tools for data analysis.
+ ● The learner describes the role of analytical thinking in decision-making.
+ ● The learner describes the role of effective communication when collaborating with teams and stakeholders to address problems.
+ ● The learner explains how data can be organized, analyzed, and shared to drive the decision-making process.
+ ● The learner explains how to ask effective questions to address problems.
+
+
+Exploring Data
+Exploring Data builds proficiency with data, including the organization, preparation, transformation, cleaning, and
+verification of data. This course examines how to apply critical thinking, spreadsheet, and structured query language
+techniques to data management and decision-making. Students may simultaneously work toward the Google Data Analytics
+Professional Certificate and the WGU Business Analysis Certificate. The course D468: Discovering Data, which also includes
+Google certificate materials, is a prerequisite.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner describes best practices for preparing data for analysis in spreadsheets and databases with SQL.
+ ● The learner explains data cleaning and verification processes using spreadsheet techniques and SQL queries and functions.
+ ● The learner explains key data structures, types, formats, and integrity in data collection.
+
+
+Analyzing and Visualizing Data
+Analyzing and Visualizing Data examines the principles and techniques used to effectively analyze data to answer questions
+and share data through the art of visualization. This course explores how to use formulas and functions to perform
+calculations, how to design and create visualizations and dashboards in Tableau, and how to build an effective data
+presentation that considers limitations associated with the data and best practices for audience considerations. This course
+provides students with an opportunity to demonstrate an understanding of what is involved in the conversion and formatting of
+data and apply the use of functions and syntax to create SQL queries for combining data from multiple database tables. The
+course D467: Exploring Data, which also includes Google certificate materials, is a prerequisite.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner constructs visualizations using business intelligence from a variety of datasets.
+ ● The learner demonstrates how to support arguments through data visualizations.
+ ● The learner explains data visualization techniques for effective storytelling.
+ ● The learner presents to stakeholders using effective data presentation best practices.
+
+
+Data Applications
+Data Applications examines the principles and techniques used to effectively analyze data to answer questions and provides
+foundational knowledge of R and RStudio environments. This course teaches students how to aggregate; how to format and adjust
+data using spreadsheets and SQL; how to use formulas and functions to perform calculations in SQL; how to organize,
+transform, clean, and analyze data in R; and how to create visualizations in R Markdown. Upon completion of this course,
+students will earn the WGU Business Analysis Professional certificate and may also choose to earn the Google Data Analytics
+Professional certificate.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner explains how to set up an R environment using RStudio.
+ ● The learner explains post-analysis tasks using R and R Markdown.
+ ● The learner explains processes for aggregating data in SQL and spreadsheets, using formulas and functions.
+ ● The learner explains processes for organizing, formatting, and adjusting data for analysis.
+ ● The learner identifies the R programming techniques used to clean, organize, analyze, and visualize data.
+
+
+Managing Operations
+Managing Operations examines management systems and processes to improve operating efficiency. In this course, students will
+be introduced to operations management concepts and will learn how analysis of these systems and processes can improve
+operating efficiency across the organization. Students will explore ethical and sustainable operations management strategies
+and will analyze operating processes for continuous improvement.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner analyzes management systems and processes in operations management.
+ ● The learner analyzes the supply chain in operations management.
+ ● The learner describes ethical and sustainable strategies in operating models.
+ ● The learner describes how operations management processes support business functions.
+ ● The learner describes processes to improve operating efficiency and foster continuous improvement.
+
+
+Transportation, Logistics, and Distribution
+Transportation, Logistics, and Distribution examines logistics and the planning and management of transportation and
+distribution. This course introduces requirements and risks, facilities and inventory, strategy and supply chain
+synchronicity, efficiencies and costs, and laws and regulations related to transportation, distribution, and logistics.
+Students will explore warehousing and warehouse management, inventory and logistics management, distribution, and supply
+chain management from the lens of transportation, logistics, and distribution. This course is aligned with the Certified in
+Logistics, Transportation, and Distribution (CLTD) certification from the Association for Supply Chain Management.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner describes key elements of distribution and warehouse management.
+ ● The learner describes key elements of distribution, logistics, and transportation management.
+ ● The learner explains how Total Cost of Ownership (TCO) management affects operations.
+ ● The learner identifies laws and regulations within operations and supply chains with respect to transportation, logistics,
+  and distribution.
+
+
+Global Supply Chain Management
+Global Supply Chain Management introduces a broad range of supply chain management concepts. Students consider supply chains
+and supply chain management strategies, including planning and design, risk management, and global and sustainable supply
+chain networks and management. Students learn about managing important relationships and their interdependencies. Students
+also investigate how supply chain costs affect consumers, quality and continuous improvement, and the role of the sales and
+operations planning (S&OP) process. Portions of this course are aligned with aspects of ASCM APICS certification programs,
+namely the CSCP and the CPIM.
+ This course covers the following competencies:
+ ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+  plan together.
+ ● The learner describes concepts of supply chain management and supply chain risk management.
+ ● The learner describes the management of relationships, distribution, logistics, sourcing, and transportation within the
+  supply chain.
+ ● The learner explains how the supply chain affects consumers.
+ ● The learner explains the role of the Sales and Operations Planning (S&OP) process in Operations and Supply Chain Management.
+Quality, Continuous Improvement, and Lean Six Sigma
+ Quality, Continuous Improvement, and Lean Six Sigma examines how organizations can measure and improve the quality of
+ products, goods, and services. Students consider different dimensions and characteristics of quality and are introduced to a
+ variety of strategies and tools that are used to manage quality and measure performance. This course explores how to apply
+ continuous improvement processes by analyzing the Lean Six Sigma DMAIC (define, measure, analyze, improve, and control)
+ method. C955: Applied Probability and Statistics is a prerequisite for this course.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The learner applies quality management principles and strategies for continuous improvement in an organization.
+  ● The learner explains appropriate quality management strategies for continuous improvement in an organization.
+
+
+21st Century Operations and Supply Chain
+ 21st Century Operations and Supply Chain explores modern issues in supply chain management. Building on the supply chain
+ landscape introduced in prior courses, this course addresses more complex supply chain and operations issues. The course
+ examines how disruptions transform operations and the supply chain and how to use qualitative and quantitative data to
+ evaluate solutions.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The learner evaluates solutions to operational problems based on relevant qualitative and quantitative data.
+  ● The learner explains how disruptions transform operations and supply chain.
+
+
+Solutions Design and Visualization Capstone
+ Solution Design and Visualization Capstone guides learners to synthesize and apply the skills learned throughout their
+ business analytics, operations, and supply chain education. This course gives learners the opportunity to solve challenges in
+ procurement, sales and operations planning (S&OP) processes, distribution, logistics and transportation faced by a fictional
+ company. In the course capstone project, learners play the role of an operations and supply chain manager or consultant,
+ redesigning the existing supply chain to implement lean processes and using Six Sigma methodology to improve efficiency and
+ allow the company to bring new products or services to market faster. Learners in this course address a real operations and
+ supply chain problem and design solutions, which they communicate in a report and a presentation. At the end of the course,
+ learners will have an authentic experience they can add to their portfolio and show employers. Working through this capstone
+ helps learners to understand how their knowledge interacts with real situations and how roles fit within the industry. The
+ D472: 21st Century Operations and Supply Chain course is a prerequisite.
+  This course covers the following competencies:
+  ● The learner synthesizes business analytics, operations, and supply chain management skills to solve business problems.
+Human Resources
+Functions of Human Resource Management
+ Human resource management is where strategy and people come together. This course introduces you to the full scope of HR
+ functions, including workforce planning, talent acquisition, compensation, employee development, labor relations, and
+ workplace safety. By understanding how these functions work together, you will see how HR professionals influence both
+ business results and the employee experience.
+  This course covers the following competencies:
+  ● Begin your course by discussing your course planning tool report with your instructor and creating your personalized course
+   plan together.
+  ● The learner describes direct and indirect monetary and nonmonetary rewards based on employment.
+  ● The learner describes training and development activities that improve employees’ current and future job performance and
+   systems for measuring, evaluating, and influencing employee performance.
+  ● The learner explains applicable federal employment-related regulations and human resources' role in organizational compliance
+   and employee relations.
+● The learner explains how the talent acquisition process works to meet the current and future needs of the organization.
+● The learner identifies the roles and functions in strategic human resource management.
+Accessibility and Accommodations
+ Western Governors University (WGU) is committed to providing equal access to its academic programs to
+ all qualified students. WGU's Student Disability Services department supports this mission by providing
+ support, resources, advocacy, collaboration, and academic accommodations in accordance with federal
+ and state statutes and regulations to WGU students and prospective students. Prospective and Enrolled
+ Students may initiate the accommodation process at any time during their enrollment at WGU. To initiate
+ the accommodation process, all potential and current WGU students must complete the secure online
+ Accommodation Request Form located at https://www.wgu.edu/wgu/ada_form. The Student Disability
+ Services team can be reached at 1-877- 435-7948 x5922 or at sds@wgu.edu. Additional information on
+ accommodations can be found in the student handbook Accommodations for Students with Disabilities
+ policy.
+Need More Information? WGU Student Services
+ Student Support Services team members also assist with unresolved concerns to find equitable
+ resolutions. To contact the Student Support Services team, please feel free to call 877-435-7948 or e-mail
+ studentservices@wgu.edu. We are available Monday through Friday from 6:00 a.m. to 10:00 p.m., and
+ Saturday and Sunday, 10:00 a.m. to 7:00 p.m, mountain standard time.
+

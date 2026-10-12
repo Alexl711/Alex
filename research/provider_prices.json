@@ -1,0 +1,178 @@
+[
+  {
+    "provider": "UMPI",
+    "billingUnit": "eight-week session",
+    "amount": 1800,
+    "currency": "USD",
+    "catalogYear": "2026\u201327",
+    "verificationStatus": "documented",
+    "origin": "Reviewed exact public-page excerpt",
+    "sourceIds": [
+      "source-06"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "Academic Year 2026 \u2013 2027\nYourPace Undergraduate\n$1800\nPer 8 week session"
+  },
+  {
+    "provider": "WGU",
+    "billingUnit": "six-month term including resource fee",
+    "amount": 4050,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "documented",
+    "origin": "Reviewed exact public-page excerpt",
+    "sourceIds": [
+      "source-13"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "Program consists of\u00a036 courses\n[\u2026]\nTuition\n$3,850\nE-Books and Resources Fee\n+\n$200"
+  },
+  {
+    "provider": "TESU",
+    "billingUnit": "out-of-state full-time term, nine or more credits",
+    "amount": 4652,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "documented",
+    "origin": "Reviewed exact public-page excerpt",
+    "sourceIds": [
+      "source-16"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "Out-of-state residents\n$4,652\n[\u2026]\nStudents registering for 9 or more credits per term will receive the discounted Full-Time Flat-Rate Tuition."
+  },
+  {
+    "provider": "TESU Edison Accelerate",
+    "billingUnit": "pathway fee",
+    "amount": 3468,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "documented",
+    "origin": "Reviewed exact public-page excerpt",
+    "sourceIds": [
+      "source-18"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "For $3,468, Edison Accelerate allows students with substantial prior credits to reduce their Credit Hour Residency Requirement to just 6 required course credits (SOS-1100: Critical Information Literacy and Capstone).\n[\u2026]\nBeyond the Credit Hour Residency Requirement, Edison Accelerate does not waive any degree policies or requirements."
+  },
+  {
+    "provider": "TESU application",
+    "billingUnit": "application",
+    "amount": 50,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "documented",
+    "origin": "Reviewed public fee table",
+    "sourceIds": [
+      "source-17"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "Application\n$50\n[\u2026]\nGraduation Audit Fee**\n$98"
+  },
+  {
+    "provider": "TESU graduation audit",
+    "billingUnit": "audit",
+    "amount": 98,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "documented",
+    "origin": "Reviewed public fee table",
+    "sourceIds": [
+      "source-17"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "Application\n$50\n[\u2026]\nGraduation Audit Fee**\n$98"
+  },
+  {
+    "provider": "SNHU",
+    "billingUnit": "credit",
+    "amount": 354,
+    "currency": "USD",
+    "catalogYear": "2026\u201327",
+    "verificationStatus": "documented",
+    "origin": "Reviewed exact public-page excerpt",
+    "sourceIds": [
+      "source-20"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "$354/credit for undergraduate degrees"
+  },
+  {
+    "provider": "Sophia",
+    "billingUnit": "month",
+    "amount": 99,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "documented",
+    "origin": "Reviewed exact public-page excerpt",
+    "sourceIds": [
+      "source-12"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "Please see your Advisor to review the course chart below for the right courses that will help you complete your degree.\n[\u2026]\nComplete all the required assessments with an overall score of 70% or above\n[\u2026]\n1 Month\nYou want to work quickly through one or two courses.\n$99\nPer month. Auto-renews.\n[\u2026]\n4 Months\nYou want to knock out several gen eds over a few months.\n25% savings\nfrom the 1 month plan\n$299\nFor four months. Auto-renews."
+  },
+  {
+    "provider": "Sophia",
+    "billingUnit": "four months",
+    "amount": 299,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "documented",
+    "origin": "Reviewed exact public-page excerpt",
+    "sourceIds": [
+      "source-12"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "Please see your Advisor to review the course chart below for the right courses that will help you complete your degree.\n[\u2026]\nComplete all the required assessments with an overall score of 70% or above\n[\u2026]\n1 Month\nYou want to work quickly through one or two courses.\n$99\nPer month. Auto-renews.\n[\u2026]\n4 Months\nYou want to knock out several gen eds over a few months.\n25% savings\nfrom the 1 month plan\n$299\nFor four months. Auto-renews."
+  },
+  {
+    "provider": "Study.com College Saver",
+    "billingUnit": "month",
+    "amount": 95,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "unverified",
+    "origin": "User-supplied starting fact, not independently verified",
+    "sourceIds": [
+      "source-21"
+    ]
+  },
+  {
+    "provider": "Study.com College Saver Pro",
+    "billingUnit": "month",
+    "amount": 235,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "unverified",
+    "origin": "User-supplied starting fact, not independently verified",
+    "sourceIds": [
+      "source-21"
+    ]
+  },
+  {
+    "provider": "CLEP",
+    "billingUnit": "exam excluding testing charges",
+    "amount": 97,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "unverified",
+    "origin": "User-supplied starting fact, not independently verified",
+    "sourceIds": [
+      "source-22"
+    ]
+  },
+  {
+    "provider": "UMPI portfolio assessment",
+    "billingUnit": "credit",
+    "amount": 50,
+    "currency": "USD",
+    "catalogYear": "unconfirmed",
+    "verificationStatus": "documented",
+    "origin": "Reviewed exact public-page excerpt",
+    "sourceIds": [
+      "source-10"
+    ],
+    "verifiedAt": "2026-10-12",
+    "quote": "Credit hours earned through portfolio assessment do not count toward residency.\n[\u2026]\nThe fee for Portfolio Assessment is $50 per credit hour."
+  }
+]

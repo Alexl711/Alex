@@ -1,0 +1,2127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="facebook-domain-verification" content="4t883e9p7go6a4acfy4l01f72ld4nk" />
+    <meta name="google-site-verification" content="hB4uz-81-6iUbtH-GyLNCKeRC2ZDo4hvO4GT5y-oKCk" />
+
+
+<link rel="preload"
+	  href="/assets/fonts/open-sans-v18-latin-700.woff2"
+	  as="font"
+	  type="font/woff2"
+	  crossorigin="" />
+<link rel="preload"
+	  href="/assets/fonts/oswald-v36-latin-700.woff2"
+	  as="font"
+	  type="font/woff2"
+	  crossorigin="" />
+
+<style>
+	/* open-sans-fallback */
+	@font-face {
+		font-family: OpenSansFallback;
+		size-adjust: 105.44%;
+		ascent-override: 103%;
+		src: local("Arial");
+	}
+	/* oswald-fallback */
+	@font-face {
+		font-family: OswaldFallback;
+		size-adjust: 81.94%;
+		ascent-override: 160%;
+		src: local("Arial");
+	}
+	/* open-sans-regular - latin */
+	@font-face {
+		font-family: OpenSans;
+		font-display: swap;
+		src: url("/assets/fonts/open-sans-v18-latin-regular.woff2") format("woff2");
+	}
+	/* open-sans-700 - latin */
+	@font-face {
+		font-family: OpenSans;
+		font-weight: 700;
+		font-display: swap;
+		src: url("/assets/fonts/open-sans-v18-latin-700.woff2") format("woff2");
+	}
+	/* open-sans-italic - latin */
+	@font-face {
+		font-family: OpenSans;
+		font-style: italic;
+		font-display: swap;
+		src: url("/assets/fonts/open-sans-v18-latin-italic.woff2") format("woff2");
+	}
+	/* open-sans-700italic - latin */
+	@font-face {
+		font-family: OpenSans;
+		font-weight: 700;
+		font-style: italic;
+		font-display: swap;
+		src: url("/assets/fonts/open-sans-v18-latin-700italic.woff2") format("woff2");
+	}
+	/* oswald-regular - latin */
+	@font-face {
+		font-family: Oswald;
+		font-weight: 400;
+		font-display: swap;
+		src: url('/assets/fonts/oswald-v36-latin-regular.woff2') format('woff2');
+	}
+	/* oswald-500 - latin */
+	@font-face {
+		font-family: Oswald;
+		font-weight: 500;
+		font-display: swap;
+		src: url('/assets/fonts/oswald-v36-latin-500.woff2') format('woff2');
+	}
+	/* oswald-600 - latin */
+	@font-face {
+		font-family: Oswald;
+		font-weight: 600;
+		font-display: swap;
+		src: url('/assets/fonts/oswald-v36-latin-600.woff2') format('woff2');
+	}
+	/* oswald-700 - latin */
+	@font-face {
+		font-family: Oswald;
+		font-weight: 700;
+		font-display: swap;
+		src: url('/assets/fonts/oswald-v36-latin-700.woff2') format('woff2');
+	}
+
+	body {
+		font-family: OpenSansFallback;
+		font-weight: 400;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: OswaldFallback;
+		font-weight: 500;
+	}
+
+	@media (min-width: 992px) {
+		.navbar-nav > li.nav-menuItem > a.nav-link {
+			font-family: Oswald, OswaldFallback;
+			font-weight: 700;
+		}
+	}
+
+	.subset-font-loaded body {
+		font-family: OpenSans, OpenSansFallback;
+		font-weight: 400;
+	}
+
+	.subset-font-loaded h1, .subset-font-loaded h2, .subset-font-loaded h3, .subset-font-loaded h4, .subset-font-loaded h5, .subset-font-loaded h6 {
+		font-family: Oswald, OswaldFallback;
+		font-weight: 500;
+	}
+
+	.all-fonts-loaded body {
+		font-family: OpenSans, OpenSansFallback;
+		font-weight: 400;
+	}
+
+	.all-fonts-loaded strong {
+		font-family: OpenSans, OpenSansFallback;
+		font-weight: 700;
+	}
+
+	.all-fonts-loaded em {
+		font-family: OpenSans, OpenSansFallback;
+		font-style: italic;
+		font-weight: 400;
+	}
+
+	.all-fonts-loaded strong em, .all-fonts-loaded em strong {
+		font-family: OpenSans, OpenSansFallback;
+		font-style: italic;
+		font-weight: 700;
+	}
+
+	.all-fonts-loaded h1, .all-fonts-loaded h2, .all-fonts-loaded h3, .all-fonts-loaded h4, .all-fonts-loaded h5, .all-fonts-loaded h6,
+	.all-fonts-loaded h1 em, .all-fonts-loaded h2 em, .all-fonts-loaded h3 em, .all-fonts-loaded h4 em, .all-fonts-loaded h5 em, .all-fonts-loaded h6 em {
+		font-family: Oswald, OswaldFallback;
+		font-weight: 500;
+	}
+</style>
+
+<script>
+	if ("fonts" in document) {
+		if (sessionStorage.fontsLoadedFoft) {
+			document.documentElement.className += " all-fonts-loaded";
+		} else {
+			Promise.all([
+				document.fonts.load("700 1em Oswald"),
+				document.fonts.load("700 1em OpenSans"),
+			]).then(function () {
+				document.documentElement.className += " subset-font-loaded";
+				Promise.all([
+					document.fonts.load("400 1em OpenSans"),
+					document.fonts.load("italic 1em OpenSans"),
+					document.fonts.load("italic 700 1em OpenSans"),
+					document.fonts.load("400 1em Oswald"),
+					document.fonts.load("500 1em Oswald"),
+					document.fonts.load("600 1em Oswald"),
+				]).then(function () {
+					document.documentElement.className += " all-fonts-loaded";
+					sessionStorage.fontsLoadedFoft = true;
+				});
+			});
+		}
+	};
+</script>
+
+
+<link rel="stylesheet" href="/assets/css/screen.min.css?v=Release-40">
+<script src="/assets/js/scripts.min.js?v=Release-40"></script>        <script>
+			const templateId = '{F2AA6F39-F4C9-42C6-A036-55779BA7624D}';
+        </script>
+
+    <!-- Start VWO Async SmartCode -->
+    <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+    <script type='text/javascript' id='vwoCode'>
+        window._vwo_code || (function () {
+            var account_id = 605756,
+                version = 2.1,
+                settings_tolerance = 2000,
+                hide_element = 'body',
+                hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;transition:none !important;',
+                /* DO NOT EDIT BELOW THIS LINE */
+                f = false, w = window, d = document, v = d.querySelector('#vwoCode'), cK = '_vwo_' + account_id + '_settings', cc = {}; try { var c = JSON.parse(localStorage.getItem('_vwo_' + account_id + '_config')); cc = c && typeof c === 'object' ? c : {} } catch (e) { } var stT = cc.stT === 'session' ? w.sessionStorage : w.localStorage; code = { nonce: v && v.nonce, use_existing_jquery: function () { return typeof use_existing_jquery !== 'undefined' ? use_existing_jquery : undefined }, library_tolerance: function () { return typeof library_tolerance !== 'undefined' ? library_tolerance : undefined }, settings_tolerance: function () { return cc.sT || settings_tolerance }, hide_element_style: function () { return '{' + (cc.hES || hide_element_style) + '}' }, hide_element: function () { if (performance.getEntriesByName('first-contentful-paint')[0]) { return '' } return typeof cc.hE === 'string' ? cc.hE : hide_element }, getVersion: function () { return version }, finish: function (e) { if (!f) { f = true; var t = d.getElementById('_vis_opt_path_hides'); if (t) t.parentNode.removeChild(t); if (e) (new Image).src = 'https://dev.visualwebsiteoptimizer.com/ee.gif?a=' + account_id + e } }, finished: function () { return f }, addScript: function (e) { var t = d.createElement('script'); t.type = 'text/javascript'; if (e.src) { t.src = e.src } else { t.text = e.text } v && t.setAttribute('nonce', v.nonce); d.getElementsByTagName('head')[0].appendChild(t) }, load: function (e, t) { var n = this.getSettings(), i = d.createElement('script'), r = this; t = t || {}; if (n) { i.textContent = n; d.getElementsByTagName('head')[0].appendChild(i); if (!w.VWO || VWO.caE) { stT.removeItem(cK); r.load(e) } } else { var o = new XMLHttpRequest; o.open('GET', e, true); o.withCredentials = !t.dSC; o.responseType = t.responseType || 'text'; o.onload = function () { if (t.onloadCb) { return t.onloadCb(o, e) } if (o.status === 200 || o.status === 304) { _vwo_code.addScript({ text: o.responseText }) } else { _vwo_code.finish('&e=loading_failure:' + e) } }; o.onerror = function () { if (t.onerrorCb) { return t.onerrorCb(e) } _vwo_code.finish('&e=loading_failure:' + e) }; o.send() } }, getSettings: function () { try { var e = stT.getItem(cK); if (!e) { return } e = JSON.parse(e); if (Date.now() > e.e) { stT.removeItem(cK); return } return e.s } catch (e) { return } }, init: function () { if (d.URL.indexOf('__vwo_disable__') > -1) return; var e = this.settings_tolerance(); w._vwo_settings_timer = setTimeout(function () { _vwo_code.finish(); stT.removeItem(cK) }, e); var t; if (this.hide_element() !== 'body') { t = d.createElement('style'); var n = this.hide_element(), i = n ? n + this.hide_element_style() : '', r = d.getElementsByTagName('head')[0]; t.setAttribute('id', '_vis_opt_path_hides'); v && t.setAttribute('nonce', v.nonce); t.setAttribute('type', 'text/css'); if (t.styleSheet) t.styleSheet.cssText = i; else t.appendChild(d.createTextNode(i)); r.appendChild(t) } else { t = d.getElementsByTagName('head')[0]; var i = d.createElement('div'); i.style.cssText = 'z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;display: block !important;'; i.setAttribute('id', '_vis_opt_path_hides'); i.classList.add('_vis_hide_layer'); t.parentNode.insertBefore(i, t.nextSibling) } var o = window._vis_opt_url || d.URL, s = 'https://dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(o) + '&vn=' + version; if (w.location.search.indexOf('_vwo_xhr') !== -1) { this.addScript({ src: s }) } else { this.load(s + '&x=true') } } }; w._vwo_code = code; code.init();
+        })();
+    </script>
+    <!-- End VWO Async SmartCode -->
+
+
+    <script src="/assets/js/gaScripts.min.js?v=Release-40"></script>
+
+    
+<title>How Much is Tuition? Online Tuition Costs | SNHU</title>
+<meta name="description" content="With rising tuition costs, we understand “how much is tuition” may be the first question on your mind when considering an online college program." />
+<meta name="keywords" content="" />
+<meta name="robots" content="index,follow" />
+
+    <meta name="last-modified" content="2026-07-10T17:24:18Z" />
+
+    <link rel="canonical" href="https://www.snhu.edu/tuition-and-financial-aid/online" />
+
+    
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.snhu.edu/tuition-and-financial-aid/online" />
+	<meta property="og:title" content="Online Tuition &amp; Financial Aid" />
+	<meta property="og:image" content="https://www.snhu.edu/-/media/images/logos/logo-abbr.jpg" />
+	<meta property="og:description" content="Your future. Your terms. See why thousands choose SNHU." />
+
+    
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@snhu" />
+
+
+    
+
+
+
+    
+<!-- Google Tag Manager GA4 Prod Env -->
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-TPV7WCR");
+</script>
+<!-- End Google Tag Manager -->
+
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/icons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/icons/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-touch-icon-114x114.png">
+
+    
+    <!-- Redirect IE users without Edge to the browser error page -->
+    <script type="text/javascript">
+        if (window.navigator.userAgent.indexOf('MSIE ') > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+            if (window.location.href.indexOf('browsererror') === -1) {
+                window.location.replace('/browsererror');
+            }
+        }
+    </script>
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6D6TD-6BR5B-4UR9V-8AQ6R-J5VPB",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"6D6TD-6BR5B-4UR9V-8AQ6R-J5VPB";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ljqlx6ix2qdhc2wnhmxa-f-c1d912d43-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1813005","ak.ai":parseInt("448979",10),"ak.ol":"0","ak.cr":1,"ak.ipv":4,"ak.proto":"h2","ak.rid":"d3d66f5","ak.r":51172,"ak.a2":n,"ak.m":"","ak.n":"essl","ak.cport":18371,"ak.gh":"23.212.7.145","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1791834926","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==k48owT6DbkwzBXBffFCHBZ5LsP5Sf8/dugUjua1H7r+nINqFZUNBxSLNE7EFjiylvS1UGNSkDKHyiA08rMLNdy0FP8tJnAmK8R59+bwvpBiq640v23aX6e7D61EptyrjSKOZaAMPMmQy1iHi4zrlNw5jmQN1wAcEG/j/2/F45+6yxJqwBzPMuWGAeQmXosU5WpXPXaxg7Aq8LByt9aynvZfsGX1pmqmkUYGa3W3OiMgFtslKPT4HNHNb2odmRu2Y8wHVMaFmLfAAkRNks79o9JwVjXvDflg/eKvIMxswjuAviMyOPW3c5IQaA8s9K3RcKqZ/JW/UhWM59CWWeVqvoXA0PkbtryOR5w0U7kT0e18HCn8eWhlDxlc3FyFWno9o6t6eKhHul2Q26FGTlILAImv3dPHfC/fEe0/x7leKqSE=","ak.pv":"322","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+    
+<!-- Google Tag Manager (noscript)  GA4 Prod Env -->
+<noscript
+    ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TPV7WCR"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+    ></iframe
+></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+
+
+<header>
+	
+
+	<div class="container">
+		<div class="row no-gutters align-items-center">
+			<a class="btn btn-cta skip-navigation" href="#main-content" role="button">Skip to main content</a>
+			<div class="col-3 col-lg-4">
+				
+			<div class="navbar logo" data-placeholder="header-top-left" data-rendering="Logo">
+				<a class="navbar-brand" href="/" title="Southern New Hampshire University">
+					<img src="/-/media/images/logos/snhu-logos/snhu-desktop-header.svg?h=72&amp;iar=0&amp;w=260&amp;hash=C9A2AFF835D2E828080577C68FA5435F" class="desktopLogoImg" alt="Southern New Hampshire University" width="260" height="72" />
+					<img src="/-/media/images/logos/snhu-logos/snhu-mobile-header.svg?h=72&amp;iar=0&amp;w=239&amp;hash=051D16C60D9E6F5F88024A058A829545" class="mobileLogoImg" alt="Southern New Hampshire University" width="239" height="72" />
+				</a>
+			</div>
+
+			</div>
+			<div class="col-7 col-lg-8 d-flex justify-content-end align-items-center">
+				
+		<nav class="utility" aria-label="Header Utility Links" data-placeholder="header-top-right" data-rendering="Header CTA Nav">
+			<div class="d-flex text-center">
+
+    <ul class="mb-spacing-0 d-flex link-list" >
+                <li>
+                        <a href="/admission/request-information"  class="flex-shrink-1 btn btn-link" >
+                            Request Info
+                        </a>
+                </li>
+                <li>
+                        <a href="#ModalCardDeck"  class="flex-shrink-1 btn btn-link" >
+                            Apply Now
+                        </a>
+                </li>
+                <li>
+                        <a href="https://campus.snhu.edu/"  class="flex-shrink-1 btn btn-link" >
+                            SNHU Campus
+                        </a>
+                </li>
+    </ul>
+
+
+			</div>
+		</nav>
+
+
+	<div class="modal " id="ModalCardDeck" tabindex="0" role="dialog" aria-label="Apply Now" aria-modal="true" data-placeholder="header-top-right" data-rendering="Modal">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="container">
+				<div class="row">
+					<div class="modal-content col-md-8">
+						<div class="modal-body">
+							<button class="btn btn-primary btn-modal-close" type="button" aria-label="Close Modal"><span>×</span></button>
+							<div class="card-group">
+									<div class="row no-gutters card-group-header">
+										<div class="col">
+											<h2>
+											Apply Now
+											</h2>
+										</div>
+									</div>
+								<div class="row no-gutters card-group-body ">
+									<div class="col-12 col-lg-4">
+        <div class="card my-3 " data-placeholder="/header/header-top-right/product-cards-{32FB40CB-8F44-4E88-880F-44DCE762C9C0}-0" data-rendering="Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                                                                            <div class="card-content">
+                                <div>
+<h2>Online Students</h2>                                                                            <div class="card-text">
+                                            <p>For All Online Programs</p>
+                                        </div>
+                                </div>
+                                    <div class="card-footer">
+                                        <div class="row no-gutters">
+                                            <div class="col ">
+                                                <a class="btn btn-primary" target="_self" title="Continue to the Online Application" href="/admission/apply-now/application" role="button">Continue</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div><div class="col-12 col-lg-4">
+        <div class="card my-3 " data-placeholder="/header/header-top-right/product-cards-{32FB40CB-8F44-4E88-880F-44DCE762C9C0}-1" data-rendering="Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                                                                            <div class="card-content">
+                                <div>
+<h2>International Students</h2>                                                                            <div class="card-text">
+                                            <p>On Campus, need or have Visa</p>
+                                        </div>
+                                </div>
+                                    <div class="card-footer">
+                                        <div class="row no-gutters">
+                                            <div class="col ">
+                                                <a class="btn btn-primary" target="_self" title="Continue to the International Application" href="/admission/apply-now/international-application" role="button">Continue</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div><div class="col-12 col-lg-4">
+        <div class="card my-3 " data-placeholder="/header/header-top-right/product-cards-{32FB40CB-8F44-4E88-880F-44DCE762C9C0}-2" data-rendering="Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                                                                            <div class="card-content">
+                                <div>
+<h2>Campus Students</h2>                                                                            <div class="card-text">
+                                            <p>For All Campus Programs</p>
+                                        </div>
+                                </div>
+                                    <div class="card-footer">
+                                        <div class="row no-gutters">
+                                            <div class="col ">
+                                                <a class="btn btn-primary" target="_blank" title="Continue to the Campus Admission page" href="https://campus.snhu.edu/admission" role="button">Continue</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="modal-backdrop"></div>
+	<script>
+		if (typeof modalControllerContainer === "undefined") {
+			window.modalControllerContainer = new ModalController();
+		}
+		let modalControlInstance_ModalCardDeck = document.getElementById('ModalCardDeck');
+		if (modalControlInstance_ModalCardDeck !== null) {
+			modalControllerContainer.init(modalControlInstance_ModalCardDeck);
+		}
+	</script>
+
+
+				<div class="search-toggle-container"></div>
+				<script defer type="text/javascript" src="/assets/js/searchController.min.js?v=Release-40"></script>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<nav class="navbar navbar-nav navbar-expand-lg mega-menu" aria-label="Primary Navigation" data-placeholder="header-bottom" data-rendering="Primary Navigation">
+		<div class="container">
+			<button class="d-lg-none navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="menu" aria-haspopup="true">
+				<span class="sr-only">Menu</span>
+				<span class="bar first-bar">|</span>
+				<span class="bar second-bar">|</span>
+				<span class="bar third-bar">|</span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				
+		<div class="show-lg search-ui" aria-hidden="true" id="headerSearchContainer">
+			<div class="container" data-placeholder="/header/header-bottom/search-bar-{2C0283F0-FAD3-4CFE-BF02-C0B28EE6C71F}-0" data-rendering="Search Bar">
+				<form action="/search" method="GET" data-novalidation="true">
+					<div>
+						<label class="sr-only" for="search-q">Search</label>
+						<input class="form-control" type="text" id="search-q" name="q" value="" placeholder="Search" title="Search" maxlength="50">
+						<button class="btn btn-link" aria-label="Search" type="submit" disabled="">
+							<span class="icon magnifier"></span>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+				<ul class="navbar-nav">
+						<li class="nav-menuItem dropdown">
+							<a class="nav-link d-none d-lg-block" href="/program-finder"  >Academic Programs</a>
+								<button class="nav-link text-black-72" aria-label="Academic Programs"><span class="show-lg d-lg-none">Academic Programs</span><span class="d-none d-lg-block"></span></button>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item backLink" href="#" aria-label="Return to previous">Back</a>
+									</li>
+									<li>
+										<a class="dropdown-item parentLink" href="/program-finder" >Academic Programs</a>
+									</li>
+	<li class="row">
+			<ul class="col-xl col-lg-3">
+
+				<li class="menu-header text-black-90">By Location</li>
+				<li class="">
+					<a class="dropdown-item" href="https://campus.snhu.edu/"   target="_blank"    >Campus</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees"  >Online Degrees</a>
+				</li>
+
+			</ul>
+			<ul class="col-xl col-lg-3">
+
+				<li class="menu-header text-black-90">By Degree Level</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/associate"  >Associate Degrees</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/bachelors"    aria-label="Online Bachelor&#39;s Degrees"   >Bachelor&#39;s Degrees</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/masters"    aria-label="Online Master&#39;s Degrees"   >Master&#39;s Degrees</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/certificates"    aria-label="Online Certificate Programs"   >Certificate Programs</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/classes"  >Individual Courses</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/professional-development#Professional Skills"  >Professional Development</a>
+				</li>
+
+			</ul>
+			<ul class="col-xl col-lg-6">
+
+				<li class="menu-header text-black-90">By Subject</li>
+	<li class="row ">
+			<ul class="col-xl col-12 col-lg">
+
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/accounting-and-finance"  >Accounting &amp; Finance</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/business"  >Business &amp; MBA</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/criminal-justice"  >Criminal Justice</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/education"  >Education</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/graphic-design"  >Game Art &amp; Graphic Design</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/health"  >Healthcare</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/liberal-arts"  >Liberal Arts</a>
+				</li>
+
+			</ul>
+			<ul class="col-xl col-12 col-lg">
+
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/math-and-science"  >Math &amp; Science</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/health/nursing"  >Nursing</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/psychology"  >Psychology</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/social-sciences"  >Social Sciences</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/online-degrees/technology-engineering"  >Technology &amp; Engineering</a>
+				</li>
+				<li class="addTopBorder">
+					<a class="dropdown-item" href="/program-finder"  >View all degrees</a>
+				</li>
+
+			</ul>
+	</li>
+
+			</ul>
+	</li>
+
+								</ul>
+						</li>
+						<li class="nav-menuItem dropdown">
+							<a class="nav-link d-none d-lg-block" href="/admission"  >Admission</a>
+								<button class="nav-link text-black-72" aria-label="Admission"><span class="show-lg d-lg-none">Admission</span><span class="d-none d-lg-block"></span></button>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item backLink" href="#" aria-label="Return to previous">Back</a>
+									</li>
+									<li>
+										<a class="dropdown-item parentLink" href="/admission" >Admission</a>
+									</li>
+	<li class="row">
+			<ul class="col-xl three-col">
+
+				<li class="">
+					<a class="dropdown-item" href="/admission/online"  >Online Admission</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/student-experience"  >Online Student Experience</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/student-experience/military-student-experience"  >Military Student Experience</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/admission/technical-requirements"  >Technical Requirements</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/admission/transferring-credits"  >Transferring Credits</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/admission/academic-calendars"  >Academic Calendars</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/admission/request-information"  >Request Information</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/admission/apply-now"  >Apply Now</a>
+				</li>
+
+			</ul>
+	</li>
+
+								</ul>
+						</li>
+						<li class="nav-menuItem dropdown">
+							<a class="nav-link d-none d-lg-block" href="/tuition-and-financial-aid"  >Tuition &amp; Financial Aid</a>
+								<button class="nav-link text-black-72" aria-label="Tuition &amp; Financial Aid"><span class="show-lg d-lg-none">Tuition &amp; Financial Aid</span><span class="d-none d-lg-block"></span></button>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item backLink" href="#" aria-label="Return to previous">Back</a>
+									</li>
+									<li>
+										<a class="dropdown-item parentLink" href="/tuition-and-financial-aid" >Tuition &amp; Financial Aid</a>
+									</li>
+	<li class="row">
+			<ul class="col-xl three-col">
+
+				<li class="">
+					<a class="dropdown-item" href="/tuition-and-financial-aid/online"  >Online Tuition &amp; Financial Aid</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/tuition-and-financial-aid/paying-for-college"  >How to Pay for College</a>
+				</li>
+
+			</ul>
+	</li>
+
+								</ul>
+						</li>
+						<li class="nav-menuItem dropdown">
+							<a class="nav-link d-none d-lg-block" href="/about-us"  >About SNHU</a>
+								<button class="nav-link text-black-72" aria-label="About SNHU"><span class="show-lg d-lg-none">About SNHU</span><span class="d-none d-lg-block"></span></button>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item backLink" href="#" aria-label="Return to previous">Back</a>
+									</li>
+									<li>
+										<a class="dropdown-item parentLink" href="/about-us" >About SNHU</a>
+									</li>
+	<li class="row">
+			<ul class="col-xl three-col">
+
+				<li class="">
+					<a class="dropdown-item" href="/about-us/accreditations"  >Accreditations</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="https://bridge.snhu.edu/alumni"   target="_blank"    >Alumni &amp; Giving</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/about-us/newsroom"  >Newsroom</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/student-experience/graduation"  >Commencement</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/about-us/leadership-and-history"  >Leadership &amp; History</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/about-us/social-impact"  >Social Impact</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/about-us/faculty-at-snhu"  >Faculty at SNHU</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/about-us/partnerships"  >Partnerships</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="https://campus.snhu.edu/about-us/area-information"   target="_blank"    >Area Information</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="/about-us/faqs"  >Commonly Asked Questions</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="https://jobs.snhu.edu"   target="_blank"    > Employment</a>
+				</li>
+				<li class="">
+					<a class="dropdown-item" href="https://campus.snhu.edu/student-life/library"   target="_blank"    >Library</a>
+				</li>
+
+			</ul>
+	</li>
+
+								</ul>
+						</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<script defer type="text/javascript" src="/assets/js/navigationController.min.js?v=Release-40"></script>
+			<div data-placeholder="/header/header-bottom" data-rendering="Embedded Code">
+				<style>
+    /* Hide the Salesforce chat buttons */
+    .embeddedMessagingConversationButton {
+        visibility: hidden;
+    }
+
+    /* Make the Chatbot div a floating window and style it according to Figma */
+    #chatbot-popup {
+        z-index: 99999;
+        position: fixed;
+        bottom: 13px;
+        right: 13px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.14),
+            0px 3px 4px 0px rgba(0, 0, 0, 0.12),
+            0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        height: 650px;
+        width: 480px;
+    }
+
+    @media only screen and (max-width: 574px) {
+        #chatbot-popup {
+            width: calc(100% - 30px);
+            height: calc(100% - 25px);
+            right: 0;
+            margin: 0 15px;
+        }
+    }
+
+
+    /* Add height to the window for the chat text input */
+    #webchat {
+        height: calc(100% - 60px);
+    }
+
+    /* Style the header of the Chatbot window */
+    #chatbot-header {
+        background-color: #004274;
+        color: #F5F5F5;
+        padding: 16px;
+        font-size: 20px;
+        line-height: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: inherit;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+
+    /* Style the close button */
+    #close-button {
+        cursor: pointer;
+    }
+
+    /* Style the open chat button */
+    #open-ai-chat {
+        z-index: 101;
+        position: fixed;
+        bottom: 2rem;
+        right: 1.8rem;
+        background-color: #004274;
+        border-radius: 100px;
+        color: #F5F5F5;
+        border: 2px solid #f5f5f5;
+        height: 49px;
+        width: 120px;
+        cursor: pointer;
+        align-items: center;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        display: none;
+        /* Hide the button until the chat is ready */
+    }
+
+    #open-ai-chat .chat-bubble-icon {
+        background-image: url("data:image/svg+xml,%3Csvg width='18' height='19' viewBox='0 0 18 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18 9.00002C18.0034 10.3199 17.695 11.6219 17.1 12.8C16.3944 14.2118 15.3097 15.3992 13.9674 16.2293C12.6251 17.0594 11.0782 17.4994 9.49998 17.5C8.18012 17.5034 6.8781 17.1951 5.69999 16.6L0 18.5L1.9 12.8C1.30493 11.6219 0.996557 10.3199 0.999998 9.00002C1.00061 7.42177 1.44061 5.87487 2.27072 4.53257C3.10082 3.19027 4.28825 2.10559 5.69999 1.40003C6.8781 0.804959 8.18012 0.496587 9.49998 0.500028H9.99998C12.0843 0.61502 14.053 1.49479 15.5291 2.97088C17.0052 4.44698 17.885 6.41567 18 8.50002V9.00002Z' fill='%23F5F5F5'/%3E%3Cg clip-path='url(%23clip0_756_7148)'%3E%3Crect x='4.5' y='8' width='2' height='2' rx='1' fill='%23004274'/%3E%3Crect x='8.5' y='8' width='2' height='2' rx='1' fill='%23004274'/%3E%3Crect x='12.5' y='8' width='2' height='2' rx='1' fill='%23004274'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_756_7148'%3E%3Crect width='10' height='2' fill='white' transform='translate(4.5 8)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        display: flex;
+        width: 26px;
+        height: 24px;
+    }
+
+    /* Style the open chat button on hover */
+    #open-ai-chat:hover,
+    #open-ai-chat:active {
+        background-color: #00244E;
+    }
+
+    /* Style the open chat button on focus */
+    #open-ai-chat:focus {
+        outline: 3px solid #00244E;
+        box-shadow: 0 0 0 5px #f5f5f5;
+    }
+
+    /* Top padding for the first default AI chat message */
+    .webchat__basic-transcript__activity:first-child {
+        padding-top: 16px !important;
+    }
+
+    /* Hide the status/time message below the chat bubbles */
+    .webchat__stacked-layout__status {
+        display: none !important;
+    }
+
+    /* Start of removing/modifying default exterior spacing around the chat bubbles */
+    #webchat section article {
+        margin-top: 0 !important;
+    }
+
+    .webchat__stacked-layout__attachment-row {
+        margin-top: 16px !important;
+    }
+
+    .webchat__stacked-layout {
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+
+    .webchat__basic-transcript__activity {
+        padding-top: 0 !important;
+    }
+
+    .webchat__basic-transcript__activity-active-descendant {
+        padding-bottom: 0 !important;
+    }
+
+    .webchat__basic-transcript__activity-body:not(:empty) {
+        padding-bottom: 0 !important;
+    }
+
+    .webchat__bubble--from-user {
+        margin-top: 42px !important;
+        margin-bottom: 42px !important;
+    }
+
+    /* End of removing/modifying default exterior spacing around the chat bubbles */
+
+    /* Width and bottom padding of the chat bubbles */
+    .webchat__stacked-layout__content {
+        width: 85%;
+        flex: none !important;
+    }
+
+    /* Font and interior spacing of the chat bubbles */
+    .webchat__text-content {
+        font-family: inherit !important;
+        color: #474747;
+        padding: 16px !important;
+    }
+
+    #webchat section article strong {
+        font-weight: 700 !important;
+        color: #1A1A1A;
+        font-size: 16px;
+    }
+
+    /* Background color and border of the AI chat bubbles */
+    .webchat__bubble:not(.webchat__bubble--from-user) .webchat__bubble__content {
+        border-radius: 0 12px 12px 12px !important;
+        border-width: 0 !important;
+        background-color: #F5F5F5 !important;
+    }
+
+    /* Start SNHU Virtual Assistant label */
+    .webchat__stacked-layout__main {
+        flex-wrap: wrap !important
+    }
+
+    .webchat__stacked-layout__avatar-gutter {
+        width: 100% !important;
+    }
+
+    .webchat__defaultAvatar {
+        border-radius: 0 !important;
+        height: 20px !important;
+        width: 100% !important;
+    }
+
+    .webchat__initialsAvatar:not(.webchat__initialsAvatar--fromUser) {
+        background-color: transparent !important;
+    }
+
+    .webchat__initialsAvatar {
+        color: inherit !important;
+        font-family: 'OpenSans', 'Inter' !important;
+        -webkit-box-pack: center !important;
+        justify-content: left !important;
+        width: 100% !important;
+        height: inherit !important;
+        font-size: 12.8px !important;
+    }
+
+    /* End SNHU Virtual Assistant */
+
+    .webchat__bubble--hide-nub .webchat__bubble__nub-pad {
+        width: 0 !important;
+    }
+
+    /* Horizontal separator between chat bubbles */
+    .ac-container.ac-adaptiveCard {
+        padding: 16px !important;
+    }
+
+    /* Background color and border of the user chat bubbles */
+    .webchat__bubble--from-user .webchat__bubble__content {
+        border-radius: 12px 12px 0 12px !important;
+        border-width: 0 !important;
+        background-color: #E6F1F7 !important;
+    }
+
+    /* Start button styles in the AI chat bubbles */
+    .ac-pushButton,
+    .webchat__suggested-action {
+        color: #fff !important;
+        background-color: #0069A7 !important;
+        border-radius: 50rem !important;
+        padding: 12px 32px !important;
+        font-family: 'OpenSans', 'Inter' !important;
+        font-weight: 640 !important;
+        border: 2px solid #0069A7;
+        font-size: 16px;
+        line-height: 1.2;
+
+        div {
+            white-space: pre-wrap !important;
+        }
+    }
+
+    #webchat section article .ac-pushButton:hover,
+    .webchat__suggested-action:hover {
+        color: #fff !important;
+        background-color: #1a5282 !important;
+        border-color: #1a5282 !important;
+    }
+
+    .ac-pushButton[aria-pressed="true"] {
+        color: #fff !important;
+        background-color: #1a5282 !important;
+        border-color: #1a5282 !important;
+    }
+
+    .webchat__suggested-actions__flow-box {
+        padding-left: 16px !important;
+    }
+
+    /* End button styles in the AI chat bubbles */
+
+    /* Link styles in the AI chat bubbles */
+    #webchat section article a {
+        text-decoration: underline solid 2px !important;
+    }
+
+    /* List styles in the AI chat bubbles */
+    #webchat section article ul {
+        list-style-type: disc;
+
+        li {
+            margin-bottom: .5rem;
+            line-height: 1.5;
+            overflow-wrap: break-word;
+        }
+    }
+
+    /* Reference list styles in the AI chat bubbles */
+    .webchat__link-definitions__list-item-box {
+        border: none !important;
+        background-color: transparent !important;
+    }
+
+    .webchat__link-definitions__badge {
+        border: none !important;
+        background: transparent !important;
+        font-size: 12.8px !important;
+        font-family: 'OpenSans', 'Inter' !important;
+        color: rgba(0, 0, 0, 0.55) !important;
+        font-weight: 700 !important;
+        margin: 0 !important;
+    }
+
+    .webchat__link-definitions__list-item-text {
+        text-wrap: auto !important;
+    }
+
+    .webchat__link-definitions__header::before {
+        content: 'References:';
+        font-family: 'OpenSans', 'Inter' !important;
+        color: rgba(0, 0, 0, 0.55) !important;
+    }
+
+    .webchat__link-definitions__header-text {
+        visibility: hidden !important;
+        order: 1 !important;
+    }
+
+    /* Style the chat input box */
+    .webchat__send-box__main {
+        margin: 6px 16px 6px 16px;
+        border: 1px solid #B3B3B3 !important;
+        border-radius: 8px;
+    }
+
+    .webchat__send-box-text-box__input:not(:disabled):not([aria-disabled="true"]) {
+        font-family: 'Inter', 'OpenSans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #474747 !important;
+    }
+
+    /* Style the chat send button */
+    .webchat__icon-button__shade {
+        background-color: none;
+    }
+</style>
+
+<script>
+    let btnOpen = null;
+    let socialIcons = null;
+    window.addEventListener('load', () => {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.botframework.com/botframework-webchat/4.17.0/webchat.js';
+        script.crossorigin = 'anonymous';
+        document.head.appendChild(script);
+        sessionStorage.removeItem('chatStarted');
+        btnOpen = document.getElementById('open-ai-chat');
+        if (btnOpen) {
+            btnOpen.style.display = 'flex';
+        }
+        socialIcons = document.querySelector('.social-links');
+    });
+
+    function adjustOpenAiChatButton() {
+        // Get bounding rectangles
+        const socialRect = socialIcons.getBoundingClientRect();
+
+        // Check if socialIcons is in view
+        const isSocialInView =
+            socialRect.top < window.innerHeight && socialRect.bottom > 0;
+
+        if (isSocialInView) {
+            // Place btnOpen 5px above socialIcons
+            const distanceFromBottom = window.innerHeight - socialRect.top + 5;
+            btnOpen.style.bottom = `${distanceFromBottom}px`;
+        } else {
+            btnOpen.style.bottom = '2rem';
+        }
+    }
+
+    let scrollTimeout;
+    window.addEventListener('scroll', () => {
+        if (!socialIcons || !btnOpen) return;
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(adjustOpenAiChatButton, 100);
+    });
+
+    let startsType = false;
+    function handleAiChatStart(st) {
+        if (!st) {
+            startsType = true;
+            const ga4AiChatStartEvent = new GA4EventFactory("AI_chat_start");
+            const aiChatStarted = AiChatFactory.createAiChatStart();
+            ga4AiChatStartEvent.create(aiChatStarted);
+        }
+    }
+
+    function showChat() {
+
+        // Check if the chat has already started
+        if (sessionStorage.getItem('chatStarted') === 'true') {
+            document.getElementById('chatbot-popup').style.display = 'block';
+            document.getElementById('webchat').focus();
+            document.querySelector('body').style.overflow = 'hidden';
+            return;
+        }
+
+        (async function () {
+            // Specifies style options to customize the Web Chat canvas
+            const styleOptions = {
+                hideUploadButton: true,
+                suggestedActionLayout: 'flow',
+                botAvatarInitials: 'SNHU Virtual Assistant',
+            };
+
+            // Specifies the token endpoint URL
+            const tokenEndpointURL = new URL(
+                'https://73905de0b141e580af6041d81886dd.03.environment.api.powerplatform.com/powervirtualagents/botsbyschema/cr0f4_snhuWebsiteAssistant/directline/token?api-version=2022-03-01-preview');
+
+            // Specifies the language the copilot and Web Chat should display in
+            const locale = document.documentElement.lang || 'en';
+
+            const apiVersion = tokenEndpointURL.searchParams.get('api-version');
+
+            const [directLineURL, token] = await Promise.all([
+                fetch(new URL(`/powervirtualagents/regionalchannelsettings?api-version=${apiVersion}`, tokenEndpointURL))
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Failed to retrieve regional channel settings.');
+                        }
+
+                        return response.json();
+                    })
+                    .then(({ channelUrlsById: { directline } }) => directline),
+                fetch(tokenEndpointURL)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Failed to retrieve Direct Line token.');
+                        }
+
+                        return response.json();
+                    })
+                    .then(({ token }) => token)
+            ]);
+
+            const directLine = WebChat.createDirectLine({ domain: new URL('v3/directline', directLineURL), token });
+
+            // Sends "startConversation" event when the connection is established
+            // This starts the conversation as soon as the Web Chat is loaded
+            // Sends source payload to know where the chat is being intialized from
+
+            const chatbotSource = "www";
+
+            const subscription = directLine.connectionStatus$.subscribe({
+                next(value) {
+                    if (value === 2) {
+                        directLine
+                            .postActivity({
+                                localTimezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                                locale,
+                                name: 'startConversation',
+                                type: 'event',
+                                value: { source: chatbotSource }
+                            })
+                            .subscribe();
+
+                        // Only send the event once, unsubscribe after the event is sent
+                        subscription.unsubscribe();
+                    }
+                }
+            });
+
+            const store = window.WebChat.createStore({}, () => next => action => {
+                if (action.type === 'DIRECT_LINE/INCOMING_ACTIVITY') {
+                    const event = new Event('webchatincomingactivity');
+
+                    event.data = action.payload.activity;
+
+                    if (event.data.type !== 'endOfConversation') {
+                        window.dispatchEvent(event);
+                    }
+                }
+
+                return next(action);
+            });
+
+            WebChat.renderWebChat({ directLine, locale, styleOptions, store }, document.getElementById('webchat'));
+
+            let liveChatFound = false
+            window.addEventListener('webchatincomingactivity', ({ data }) => {
+                if (data.name === 'startConversation') {
+                    // Show the chat window when the conversation starts
+                    document.getElementById('chatbot-popup').style.display = 'block';
+                    document.getElementById('webchat').focus();
+                    document.querySelector('body').style.overflow = 'hidden';
+                    sessionStorage.setItem('chatStarted', 'true');
+
+                    // Look for the Salesforce chat button and hide it
+                    const observer = new MutationObserver((mutationsList) => {
+                        mutationsList.forEach(mutation => {
+                            // We only care about added nodes
+                            mutation.addedNodes.forEach(addedNode => {
+                                // Make sure the node is a DOM element
+                                if (addedNode.nodeType === Node.ELEMENT_NODE) {
+                                    const chatBtn = document.querySelector('.embeddedMessagingConversationButton');
+
+                                    if (chatBtn) {
+                                        if (chatBtn.style.visibility !== 'hidden') {
+                                            // Hide the Salesforce chat button
+                                            // but keep it in the DOM so it can be clicked to open the Live Chat 
+                                            // when the user wants to chat with an agent
+                                            chatBtn.style.visibility = 'hidden';
+                                        }
+
+                                        if (liveChatFound) {
+                                            return;
+                                        }
+
+                                        // Send "LiveChatAvailable" event to the copilot when the Salesforce chat button is available
+                                        // This is so we don't try to open the Live Chat on pages that don't have it
+                                        directLine
+                                            .postActivity({
+                                                localTimezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                                                locale,
+                                                name: 'LiveChatAvailable',
+                                                type: 'event'
+                                            })
+                                            .subscribe();
+
+                                        // Only send the event once, unsubscribe after the event is sent
+                                        subscription.unsubscribe();
+                                        liveChatFound = true;
+                                    }
+
+                                    const aiTxtBox = document.querySelector(".webchat__send-box-text-box__input");
+                                    if (aiTxtBox) {
+                                        aiTxtBox.addEventListener("input", () => handleAiChatStart(startsType));
+                                    }
+                                }
+                            });
+                        });
+                    });
+
+                    // Observer configuration with subtree to capture elements within the pre-chat form
+                    const mutConfig = { childList: true, subtree: true };
+                    observer.observe(document.body, mutConfig); // Start the observer
+                }
+
+                if (data.name === 'OpenLiveChat') {
+                    const liveChatBtn = document.querySelector('.embeddedMessagingConversationButton');
+                    if (liveChatBtn) {
+                        liveChatBtn.click();
+                        document.getElementById('chatbot-popup').style.display = 'none';
+                        document.querySelector('body').style.overflow = 'unset';
+                        liveChatBtn.style.visibility = 'visible';
+                    }
+                }
+            });
+
+        })();
+    }
+
+    function hideChat() {
+        document.getElementById('chatbot-popup').style.display = 'none';
+        document.querySelector('body').style.overflow = 'unset';
+    }
+</script>
+
+<div id="chatbot-popup" style="display:none;">
+    <div id="chatbot-header">
+        SNHU Virtual Assistant
+        <span id="close-button" tabindex="0" role="button" onclick="hideChat()"
+            aria-label="Close SNHU Virtual Assistant Chat Bot"><svg width="17" height="17" viewbox="0 0 17 17"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="Close Icon"
+                    d="M2.57324 1.92162L7.2102 6.60702L6.94356 6.87645L2.3066 2.19105L2.57324 1.92162ZM8.35048 8.29807L8.61712 8.02864L8.88377 8.29807L8.61712 8.5675L8.35048 8.29807ZM10.2907 6.87645L10.024 6.60702L14.4268 2.15831L14.6934 2.42774L10.2907 6.87645ZM10.024 9.98912L10.2907 9.71969L15.0931 14.5723L14.8264 14.8417L10.024 9.98912ZM6.94355 9.71969L7.2102 9.98912L2.17357 15.0784L1.90692 14.8089L6.94355 9.71969Z"
+                    stroke="#F5F5F5" stroke-width="2"></path>
+            </svg></span>
+    </div>
+    <div id="webchat" role="dialog" aria-label="SNHU Virtual Assistant Chat Bot" tabindex="0">&nbsp;</div>
+</div>
+<button id="open-ai-chat" onclick="showChat()">
+    <span class="chat-bubble-icon"></span>
+    Virtual Assistant
+</button>
+
+
+			</div>
+
+</header>
+
+<script defer type="text/javascript" src="/assets/js/skipNavigationController.min.js?v=Release-40"></script>
+
+    
+
+
+<main id="main-content" tabindex="-1">
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-9">
+				
+<div class="row">
+    <div class="col-12 ">
+            <nav aria-label="Breadcrumb" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Breadcrumb">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/tuition-and-financial-aid" aria-label="Tuition &amp; Financial Aid">
+                        Tuition &amp; Financial Aid
+                    </a>
+                </li>
+                    </ol>
+    </nav>
+
+		<div class="masthead my-3 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Masthead">
+			<div class="container">
+					<img src="/-/media/images/masthead-image/banner-images/online-finanical-aid-banner-optimized.jpg?h=340&amp;w=890&amp;hash=6E6B924D2ACB75D7B0CD590526BEF2F4" alt="A student taking notes in a cafe" width="890" height="340" fetchpriority="high">
+
+					<div class="overlay">
+						<div class="content">
+
+							
+<h1 class="my-3 pt-spacing-0 mt-spacing-0 mb-spacing-n4 text-left" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/page-headline-{66120E0D-4A27-48B8-9044-95FABEA39466}-0" data-rendering="Page Headline">
+            <span class="main d-block ">Online Tuition &amp; Financial Aid</span>
+            <span class="bottom display-4--normal d-block mb-spacing-0 ">SNHU offers one of the lowest online tuition rates in the nation.</span>
+</h1>
+
+
+							
+
+							
+		<div data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/masthead-cta-button-{66120E0D-4A27-48B8-9044-95FABEA39466}-0" data-rendering="MastHead Link List">
+							<a href="/admission/request-information"  class="btn btn-cta">
+								Request Info
+							</a>
+							<a href="/admission/apply-now"  class="btn btn-cta">
+								Apply Now
+							</a>
+		</div>
+
+						</div>
+					</div>
+			</div>
+		</div>
+
+
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Content Copy">
+<h2>Higher Education. Lower Cost.</h2>
+<p>As a nonprofit university, your success is our only mission. That means we're committed to keeping our costs low, and to providing ways for you to reduce your overall tuition cost&mdash;so your education can be even more affordable.</p>
+<p>Here are three steps you can take when thinking about how to pay for college:</p>
+<h3>1. Choose an affordable school, like SNHU </h3>
+<p>We offer some of the lowest online tuition rates in the nation:</p>
+<ul>
+    <li>$354/credit for undergraduate degrees</li>
+    <li>$659/credit for graduate degrees</li>
+    <li>No undergraduate or graduate application fee</li>
+</ul></div>
+
+        <div class="card-deck" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Card Deck">
+                <div class="card-deck-header row no-gutters">
+                    <h4>Online Tuition Comparison: Bachelor&#39;s in Business Administration</h4>
+                </div>
+            <div class="card-deck-body row no-gutters">
+<div class="col-12 col-lg-6">
+        <div class="card my-3 card-minimal" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/product-cards-{7D55BB11-F16B-4D6D-B37F-D18AC9645394}-0" data-rendering="Borderless Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                            <div class="card-media">
+                                <img class="card-img img-background" src="/-/media/images/charts/undergraduate-tuition-comparison-chart.svg" alt=" SNHU Tuition Comparison Chart" width="" height="">
+                            </div>
+                                                                    </div>
+                </div>
+            </div>
+        </div>
+</div><div class="col-12 col-lg-6">
+        <div class="card my-3 card-minimal" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/product-cards-{7D55BB11-F16B-4D6D-B37F-D18AC9645394}-1" data-rendering="Borderless Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                                                                            <div class="card-content">
+                                <div>
+                                                                            <div class="card-text">
+                                            <p>Total tuition for a bachelor&rsquo;s degree in business administration at SNHU comes in at $42,480 (2026-2027 rates). That&rsquo;s 11% less than its next closest competitor, when comparing large online colleges with course-based programs.<sup>1</sup></p>
+                                        </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>            </div>
+        </div>
+
+
+        <div class="card my-3 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                            <div class="card-media">
+                                <img  class="card-img img-background" src="/-/media/images/teasers/net-price-calculator-teaser.png?h=288&amp;w=511&amp;hash=5380C740528DC710E05C5B4C82F09311" alt="Tanzania Fair, a 2020 graduate of Southern New Hampshire University, wearing her cap and gown and holding her framed SNHU diploma." width="511" height="288">
+                            </div>
+                                                                            <div class="card-content">
+                                <div>
+<h3>Your degree. Your budget.</h3>                                                                            <div class="card-text">
+                                            <p>With SNHU&rsquo;s&nbsp;<a rel="noopener noreferrer" href="https://snhu.clearcostcalculator.com/student/default/netpricecalculator/survey" target="_blank">Net Price Calculator</a>, you can estimate your degree's affordability in under 10 minutes. You'll get an overview of direct costs paid to SNHU, plus potential indirect costs you may incur, like living expenses, books, transportation and more.</p>
+                                        </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+			<div data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Embedded Code">
+				<script type='text/javascript'>
+ 	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00D1N000001TpJJ',
+				'Web_Chat',
+				'https://unify-snhu.my.site.com/ESWWebChat1765360908085',
+				{
+					scrt2URL: 'https://unify-snhu.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+    try {
+        window.addEventListener("onEmbeddedMessagingReady", function(event) {
+            let cbTrackerValues = chatBoxTrackingParams.getCookieValues();
+            //let cbTrackerValuesRaw = '{"utm_source": "statics.teams.cdn.office.net","utm_medium": "referral","utm_content": "01","utm_campaign": "SNHUEDU","Referrer": "statics.teams.cdn.office.net","Landing_Page": "https://www.snhu.edu/lp/ss/qa1-salesforce-chat"}';
+            //let cbTrackerValues = JSON.parse(cbTrackerValuesRaw);
+            let campaign  = (cbTrackerValues['utm_campaign'] !== undefined) ? cbTrackerValues['utm_campaign'] :' ';
+            let source =  (cbTrackerValues['utm_source'] !== undefined) ? cbTrackerValues['utm_source'] : '';
+            let medium = (cbTrackerValues['utm_medium'] !== undefined) ? cbTrackerValues['utm_medium'] : '';
+            let content =  (cbTrackerValues['utm_content'] !== undefined) ? cbTrackerValues['utm_content'] : '';
+            let utm_term =  (cbTrackerValues['utm_term'] !== undefined) ? cbTrackerValues['utm_term'] : '';
+            let gclientid = (cbTrackerValues['Google_ID__c'] !== undefined) ? cbTrackerValues['Google_ID__c'] : '';
+            let landingPage= (cbTrackerValues['Landing_Page'] !== undefined) ? cbTrackerValues['Landing_Page'] : '';
+            let referrer = (cbTrackerValues['Referrer'] !== undefined) ? cbTrackerValues['Referrer'] : '';
+            
+            embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
+                "campaign": campaign,
+                "source": source,
+                "medium": medium,
+                "content": content,
+                "utm_term": utm_term,
+                "gclientid": gclientid,
+                "landingPage": landingPage,
+                "referrer": referrer
+            });
+        });  
+    } catch (error) {
+        console.error('Error in event>>>:', error);
+    }
+            
+
+ </script>
+<script type='text/javascript' src='https://unify-snhu.my.site.com/ESWWebChat1765360908085/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<style>
+	header {
+		z-index: 998;
+	}
+</style>
+
+			</div>
+
+        <div class="my-3 my-spacing-0 pb-spacing-2" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Accordions" >
+                <h2>2026 - 2027 Online Undergraduate &amp; Graduate Tuition</h2>
+
+                <div class="accordion" data-allow-toggle data-allow-multiple id="d53dfe55fd6a40a8a28ab69e3ab9d8d1">
+
+                        <div class="accordion-item">
+
+
+                            <h3 class="accordion-heading" aria-label="Online Undergraduate Programs">
+                                <div id="d53dfe55fd6a40a8a28ab69e3ab9d8d1-0" class="accordion-trigger" aria-expanded="false" aria-controls="d53dfe55fd6a40a8a28ab69e3ab9d8d1-0-accordion" role="button" tabindex="0">
+                                    <span class="accordion-title text-left">Online Undergraduate Programs<span class="accordion-icon"></span></span>
+                                </div>
+                            </h3 >
+
+                            <div class="accordion-panel" id="d53dfe55fd6a40a8a28ab69e3ab9d8d1-0-accordion" role="region" aria-labelledby="d53dfe55fd6a40a8a28ab69e3ab9d8d1-0" hidden>
+                                
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/accordions-{C1A401B5-2E7D-4035-926B-C22E6F953185}-0" data-rendering="Content Copy">
+<table class="data">
+    <thead>
+        <tr>
+            <th>Online Undergraduate Programs</th>
+            <th>Per Credit Hour</th>
+            <th>Per 3-Credit Course</th>
+            <th>Annual Cost for 30 credits</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Online Undergraduate Degrees/Certificates</td>
+            <td>$354</td>
+            <td>$1,062</td>
+            <td>$10,620</td>
+        </tr>
+        <tr>
+            <td>Online Undergraduate Active Duty Military<sup>1</sup></td>
+            <td>$250 </td>
+            <td>$750 </td>
+            <td>$7,500 </td>
+        </tr>
+        <tr>
+            <td>Non-Degree Seeking, Course Work Only</td>
+            <td>$354</td>
+            <td>$1,062</td>
+            <td><br />
+            </td>
+        </tr>
+        <tr>
+            <td>Dual Enrollment for Nursing students in the Community College System of New Hampshire (prior to graduation)<sup>1</sup></td>
+            <td>$215</td>
+            <td>$645</td>
+            <td>$6,450</td>
+        </tr>
+        <tr>
+            <td>Community College System of New Hampshire Nursing Graduates after May 2012<sup>1</sup></td>
+            <td>$270</td>
+            <td>$810</td>
+            <td>$8,100</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+            <p>Most SNHU Bachelor's degrees require 120 credit hours.</p>
+            <p>Most SNHU Associate degrees require 60 credit hours.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><strong>Additional Costs:</strong> Course materials vary in price by course.</p>
+<p>Tuition Rates are subject to change and are reviewed annually.</p>
+<p><sup>1</sup>Note: students receiving this rate are not eligible for additional discounts.</p>
+<h4>Conferral Fee:</h4>
+<p>All students who petition to graduate will be assessed a $100 conferral fee. It helps cover the direct costs associated with conferring a degree, including the cost of regalia, official transcripts, and the diploma cover that are issued to all graduates.</p></div>
+
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+
+
+                            <h3 class="accordion-heading" aria-label="Online Graduate Programs">
+                                <div id="d53dfe55fd6a40a8a28ab69e3ab9d8d1-1" class="accordion-trigger" aria-expanded="false" aria-controls="d53dfe55fd6a40a8a28ab69e3ab9d8d1-1-accordion" role="button" tabindex="0">
+                                    <span class="accordion-title text-left">Online Graduate Programs<span class="accordion-icon"></span></span>
+                                </div>
+                            </h3 >
+
+                            <div class="accordion-panel" id="d53dfe55fd6a40a8a28ab69e3ab9d8d1-1-accordion" role="region" aria-labelledby="d53dfe55fd6a40a8a28ab69e3ab9d8d1-1" hidden>
+                                
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/accordions-{C1A401B5-2E7D-4035-926B-C22E6F953185}-1" data-rendering="Content Copy">
+<table class="data">
+    <thead>
+        <tr>
+            <th>Online Graduate Programs</th>
+            <th>Per Credit Hour</th>
+            <th>Per 3-Credit Course</th>
+            <th>Annual Cost for 15 credits</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Online Graduate Degrees/Certificates</td>
+            <td>$659</td>
+            <td>$1,977</td>
+            <td>$9,885</td>
+        </tr>
+        <tr>
+            <td>Online Graduate Active Duty Military<sup>1</sup></td>
+            <td>$470</td>
+            <td>$1,410</td>
+            <td>$7,050</td>
+        </tr>
+    </tbody>
+</table>
+<p><strong>Additional Costs: </strong>Course materials vary in price by course.</p>
+<p>Most SNHU Master's degrees require 30-45 credit hours.</p>
+<p>Tuition Rates are subject to change and are reviewed annually.</p>
+<p><sup>1</sup>Note: students receiving this rate are not eligible for additional discounts.</p>
+<h4>Conferral Fee:</h4>
+<p>All students who petition to graduate will be assessed a $100 conferral fee. It helps cover the direct costs associated with conferring a degree, including the cost of regalia, official transcripts, and the diploma cover that are issued to all graduates.</p></div>
+
+                            </div>
+                        </div>
+                </div>
+        </div>
+                <script>
+                    if (typeof accordionGroup === "undefined") {
+                        window.accordionGroup = new accordion();
+                    }
+                    accordionGroup.init(document.getElementById('d53dfe55fd6a40a8a28ab69e3ab9d8d1'));
+                </script>
+
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Content Copy">
+<h3>2. Find ways to lower your <em>actual</em> cost by...</h3>
+<ul>
+    <li><strong>Transferring previously earned college credits</strong> to save time and money. We&rsquo;ll accept up to 90 toward your bachelor&rsquo;s and 12 toward your master&rsquo;s. We'll start the process of obtaining your transcripts (for free!) when you apply to SNHU. And you'll get a <a href="/admission/apply-now">free official credit evaluation</a>, so you can see exactly how your transfer credits will fit into your new program.</li>
+    <li><strong>Getting military discounts </strong>for active duty service members and their spouses.</li>
+    <li><a href="/tuition-and-financial-aid/paying-for-college/financial-aid-101">Filling out the Free Application for Student Aid (FAFSA)</a> form is a free and easy way to help reduce current expenses and determine your eligibility for grants and repayable loans.</li>
+    <li><strong>Applying for scholarships</strong> from your school of choice or other organizations.</li>
+    <li><strong>Seeking out employer tuition assistance.</strong> Your employer may pay for some or all of your degree. Talk with your benefits director today.</li>
+</ul></div>
+
+
+        <div class="card my-3 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                                                                            <div class="card-content">
+                                <div>
+                                                                            <div class="card-text">
+                                            <img alt="Image of Ulugbek Miniyarov" src="/-/media/images/profiles-295x295-round/ulugbek-miniyarov-testimonial.png" style="float:right;" width="150" height="150" />
+<h3>What SNHU Students are Saying</h3>
+<p><em><strong>Ulugbek Miniyarov &rsquo;21</strong></em></p>
+<p>"When I was looking for universities that provided online education, SNHU had the best options for affordable tuition and transferring my credits.&rdquo;</p>
+                                        </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Content Copy">
+<h3>3. Create a plan with us</h3>
+<p>Once you’ve established your transfer credit and financial aid eligibility, work directly with a specialist to customize a plan specific to your unique financial needs.</p>
+<p>Our Student Financial Services team is ready to work with you to create a financial plan that makes sense for you and your goals. Talk to us today to see how much you can save, and how far you can go. Visit our financial aid <a href="/tuition-and-financial-aid/paying-for-college/financial-aid-101">tools and resources</a>&nbsp;page to explore additional financial resources.</p></div>
+
+        <div class="card my-3 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                            <div class="card-media">
+                                <img loading=lazy class="card-img img-background" src="/-/media/images/teasers/would-recommend-snhu-stat-2025.svg?h=210&amp;w=400&amp;hash=09C4070E96C650F152568CDB65BA09E6" alt="93.4% of online students would recommend SNHU." width="400" height="210">
+                            </div>
+                                                                            <div class="card-content">
+                                <div>
+                                                                            <div class="card-text">
+                                            <p>According to 2025 survey data with 8,718&nbsp;respondents. It&rsquo;s easy to see why: At SNHU, your success is our top priority. We offer support at every step&mdash;from admission and advising to student financial services and career counseling&mdash;so you have everything you need to make college possible.</p>
+                                        </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-3 my-spacing-0 pb-spacing-2" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Accordions" >
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="accordion" data-allow-toggle data-allow-multiple id="106db97ce60a4fae969e39abba474780">
+
+                        <div class="accordion-item">
+
+
+                            <h3 class="accordion-heading" aria-label="How much is online tuition?">
+                                <div id="106db97ce60a4fae969e39abba474780-0" class="accordion-trigger" aria-expanded="false" aria-controls="106db97ce60a4fae969e39abba474780-0-accordion" role="button" tabindex="0">
+                                    <span class="accordion-title text-left">How much is online tuition?<span class="accordion-icon"></span></span>
+                                </div>
+                            </h3 >
+
+                            <div class="accordion-panel" id="106db97ce60a4fae969e39abba474780-0-accordion" role="region" aria-labelledby="106db97ce60a4fae969e39abba474780-0" hidden>
+                                
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/accordions-{F5877D8D-170B-4437-B9E4-0C49B270C753}-0" data-rendering="Content Copy">
+<p>Online tuition has a reputation for being affordable. That&rsquo;s by design: There&rsquo;s no building to upkeep or land to maintain.</p>
+<p>At Southern New Hampshire University, online undergraduate credits are $354 each, and you&rsquo;ll need 60 credits for an associate degree and 120 for a bachelor&rsquo;s. For a graduate degree, it&rsquo;s $659 per credit, and the minimum number of credits needed to earn some of the master&rsquo;s degrees is 30.</p>
+<p>SNHU is known for having some of the lowest online tuition rates in the nation.</p>
+<p><img src="/-/media/images/body-copy/tyler-haycox-headshot.jpg?la=en&amp;h=220&amp;w=220&amp;hash=C182D85A3ED56C74CDD68FDA5C001F4D" alt="Image of Tyler Haycox" class="align-right" width="220" height="220" /></p>
+<p>&ldquo;What originally convinced me to transfer from my previous university to SNHU was the affordability,&rdquo; said <strong>Tyler Haycox</strong>, who received his bachelor&rsquo;s in 2018 and then returned to earn a budget-friendly master&rsquo;s, which he got in 2021.</p>
+<p>Another bonus to online tuition at SNHU: no out-of-state fees! It&rsquo;s another cost consideration to keep in mind when comparing schools.</p>
+<p>What's more, the tuition costs advertised on a college website are usually just a starting point. If you have financial aid to apply to your payments or transfer credits to bring in, the amount you pay both each term and overall could drop significantly.</p>
+<p>Speak with a financial aid specialist to learn more about how you can reduce tuition at the schools you&rsquo;re considering.</p></div>
+
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+
+
+                            <h3 class="accordion-heading" aria-label="Is online tuition the same as in-person tuition?">
+                                <div id="106db97ce60a4fae969e39abba474780-1" class="accordion-trigger" aria-expanded="false" aria-controls="106db97ce60a4fae969e39abba474780-1-accordion" role="button" tabindex="0">
+                                    <span class="accordion-title text-left">Is online tuition the same as in-person tuition?<span class="accordion-icon"></span></span>
+                                </div>
+                            </h3 >
+
+                            <div class="accordion-panel" id="106db97ce60a4fae969e39abba474780-1-accordion" role="region" aria-labelledby="106db97ce60a4fae969e39abba474780-1" hidden>
+                                
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/accordions-{F5877D8D-170B-4437-B9E4-0C49B270C753}-1" data-rendering="Content Copy">
+<p>Online tuition is typically more affordable than campus tuition.</p>
+<p>If you&rsquo;re not sure whether you want to attend school online or in person, think about some of the financial pros and cons. Taking classes online means no long commute or parking permits. You also wouldn&rsquo;t have some of the fees related to being on campus, like those for activities, meal plans or insurance.</p>
+<p>While both experiences have their benefits, it&rsquo;s important for you to decide whether online or in-person education fits your life &ndash; and your budget &ndash; best.</p></div>
+
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+
+
+                            <h3 class="accordion-heading" aria-label="Can you get aid for online college?">
+                                <div id="106db97ce60a4fae969e39abba474780-2" class="accordion-trigger" aria-expanded="false" aria-controls="106db97ce60a4fae969e39abba474780-2-accordion" role="button" tabindex="0">
+                                    <span class="accordion-title text-left">Can you get aid for online college?<span class="accordion-icon"></span></span>
+                                </div>
+                            </h3 >
+
+                            <div class="accordion-panel" id="106db97ce60a4fae969e39abba474780-2-accordion" role="region" aria-labelledby="106db97ce60a4fae969e39abba474780-2" hidden>
+                                
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/accordions-{F5877D8D-170B-4437-B9E4-0C49B270C753}-2" data-rendering="Content Copy">
+<p>You can!</p>
+<p>If your college is properly accredited by the U.S. Department of Education, you could be eligible for federal financial aid.</p>
+<p>In filling out the Free Application for Federal Student Aid (FAFSA), you&rsquo;ll complete the same form as you would for campus colleges &ndash; meaning it&rsquo;s the same experience for each. (And this makes it easier for you if you&rsquo;re looking at both online and in-person institutions, because once you fill out your FAFSA, you&rsquo;re good!)</p>
+<p>If your financial situation positions you for a financial aid offer, you&rsquo;ll have the option to accept grants and/or loans at either type of school.</p>
+<p>And if you&rsquo;ve never applied for financial aid or it&rsquo;s been a while since you&rsquo;ve done it, no worries! You&rsquo;re not alone. Have a chat with a financial aid counselor at the schools you&rsquo;re applying to. Many of them will tell you that&rsquo;s why they&rsquo;re there &ndash; to offer you help when you need it.</p></div>
+
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+
+
+                            <h3 class="accordion-heading" aria-label="How can you find employer benefits for online college?">
+                                <div id="106db97ce60a4fae969e39abba474780-3" class="accordion-trigger" aria-expanded="false" aria-controls="106db97ce60a4fae969e39abba474780-3-accordion" role="button" tabindex="0">
+                                    <span class="accordion-title text-left">How can you find employer benefits for online college?<span class="accordion-icon"></span></span>
+                                </div>
+                            </h3 >
+
+                            <div class="accordion-panel" id="106db97ce60a4fae969e39abba474780-3-accordion" role="region" aria-labelledby="106db97ce60a4fae969e39abba474780-3" hidden>
+                                
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/accordions-{F5877D8D-170B-4437-B9E4-0C49B270C753}-3" data-rendering="Content Copy">
+<p>Lots of organizations offer tuition benefits to their employees. Some may cover a few classes, while others will pay for everything related to your degree!</p>
+<p><img src="/-/media/images/body-copy/charlotte-james-headshot.jpg?la=en&amp;h=220&amp;w=220&amp;hash=F290F3D51E767DFA7DD59B81DAA72964" alt="Image of Charlotte James" class="align-right" width="220" height="220" /></p>
+<p>&ldquo;I could utilize tuition reimbursement through my employer,&rdquo; said <strong>Charlotte James &rsquo;22</strong> about the help she received in lowering her tuition costs. And when she had to cover the remaining amount, she said &ldquo;it was affordable and manageable enough that I could pay out of pocket.&rdquo;</p>
+<p>Some companies and colleges even build relationships so that employees have access to additional benefits. For example, Southern New Hampshire University offers tuition discounts to employer partners.</p>
+<p>You&rsquo;ll also want to talk with a benefits representative at your organization to learn more about their requirements, how much money you might be eligible for or what programs you could take.</p>
+<p>SNHU has partnerships with hundreds of employers across the country. Check with your employer to see if you can take advantage of tuition benefits.</p></div>
+
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+
+
+                            <h3 class="accordion-heading" aria-label="Can you get tax benefits for online college?">
+                                <div id="106db97ce60a4fae969e39abba474780-4" class="accordion-trigger" aria-expanded="false" aria-controls="106db97ce60a4fae969e39abba474780-4-accordion" role="button" tabindex="0">
+                                    <span class="accordion-title text-left">Can you get tax benefits for online college?<span class="accordion-icon"></span></span>
+                                </div>
+                            </h3 >
+
+                            <div class="accordion-panel" id="106db97ce60a4fae969e39abba474780-4-accordion" role="region" aria-labelledby="106db97ce60a4fae969e39abba474780-4" hidden>
+                                
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/accordions-{F5877D8D-170B-4437-B9E4-0C49B270C753}-4" data-rendering="Content Copy">
+<p>Yes, it’s possible!</p>
+<p>According to the Internal Revenue Service (IRS)², you could be eligible for:</p>
+<ul>
+    <li><strong>Tax credits:</strong> These could reduce the amount of income tax you have to pay.</li>
+    <li><strong>Deductions:</strong> These could reduce the amount of your income that’s subject to being taxed.</li>
+    <li><strong>Tax-free savings plans:</strong> Some plans allow earnings to go untaxed.</li>
+    <li><strong>Exclusions from income:</strong> This means you’re able to avoid paying income tax on the benefit you're receiving, but it also means you can’t use that same tax-free benefit for any other deduction or credit.</li>
+</ul>
+<p>When it’s time to do your taxes, it will be important to you to either mention this to an accountant you work with or include it in information that you self-file. </p>
+</div>
+
+                            </div>
+                        </div>
+                </div>
+        </div>
+                <script>
+                    if (typeof accordionGroup === "undefined") {
+                        window.accordionGroup = new accordion();
+                    }
+                    accordionGroup.init(document.getElementById('106db97ce60a4fae969e39abba474780'));
+                </script>
+
+        <div class="card my-3 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                                                                            <div class="card-content">
+                                <div>
+                                                                            <div class="card-text">
+                                            <img src="/-/media/images/icons/snhu-explains-icon.svg?la=en&amp;h=125&amp;w=125&amp;hash=1D7BA262064A0EAFE1F570CFC3690EF5" alt="icon of a polka dot question mark" style="float:right;" width="125" height="125" />
+<h2>SNHU EXPLAINS: Financial Aid for Online Students</h2>
+<p>Financial aid can be confusing. <a href="/about-us/newsroom/education/how-does-financial-aid-work">Learn the ins and outs of how it works for online students</a>.</p>
+                                        </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card my-3 card-minimal" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Borderless Card">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                                                                            <div class="card-content">
+                                <div>
+<h2>University Accreditation</h2>                                                                            <div class="card-text">
+                                            <p>Southern New Hampshire University is a private, nonprofit institution <a href="/about-us/accreditations">accredited by the New England Commission of Higher Education (NECHE)</a>, as well as several other accrediting bodies.</p>
+                                        </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-3 my-spacing-0 pb-spacing-2" data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0" data-rendering="Accordions" >
+                <h2>References</h2>
+
+                <div class="accordion" data-allow-toggle data-allow-multiple id="01623675cf9d470d8ebdf61e6bcb5887">
+
+                        <div class="accordion-item">
+
+
+                            <h3 class="accordion-heading" aria-label="Sources &amp; Citations">
+                                <div id="01623675cf9d470d8ebdf61e6bcb5887-0" class="accordion-trigger" aria-expanded="false" aria-controls="01623675cf9d470d8ebdf61e6bcb5887-0-accordion" role="button" tabindex="0">
+                                    <span class="accordion-title text-left">Sources &amp; Citations<span class="accordion-icon"></span></span>
+                                </div>
+                            </h3 >
+
+                            <div class="accordion-panel" id="01623675cf9d470d8ebdf61e6bcb5887-0-accordion" role="region" aria-labelledby="01623675cf9d470d8ebdf61e6bcb5887-0" hidden>
+                                
+<div class="my-3 contentCopy my-spacing-0 " data-placeholder="/main/col-wide-{F9FDEA49-FA8D-46C9-B7A2-D1678BB5B480}-0/accordions-{69F6C3FB-E4CB-43E5-A9D5-C6CF2D7115DD}-0" data-rendering="Content Copy">
+<p><sup>1</sup>Online tuition pages, on the internet, at:</p>
+<ul>
+    <li>https://www.purdueglobal.edu/tuition-financial-aid/undergraduate-graduate-tuition-and-fees, $371 per quarter credit for out-of-state students (viewed April 28, 2026)</li>
+    <li>https://www.liberty.edu/student-financial-services/basic-costs, $410 per full-time semester credit (viewed April 28, 2026)</li>
+    <li>https://www.phoenix.edu/online-business-degrees/business-bachelors-degree.html, $398 per semester credit (viewed April 28, 2026)</li>
+    <li>https://www.gcu.edu/tuition/online-evening, $490 per semester credit (viewed April 28, 2026)</li>
+    <li>https://www.umgc.edu/tuition-financial-assistance/tuition, $499 per semester credit for out-of-state students (viewed April 28, 2026)</li>
+    <li>https://www.capella.edu/online-business-degrees/bs-business-program/bachelors-business-administration/, Guided Path program is $365 per quarter credit at the 1000-2000 level and $415 per quarter credit at the 3000-4000 level (viewed April 28, 2026)</li>
+    <li>https://asuonline.asu.edu/what-it-costs, $580 per semester credit (viewed April 28, 2026)</li>
+</ul></div>
+
+                            </div>
+                        </div>
+                </div>
+        </div>
+                <script>
+                    if (typeof accordionGroup === "undefined") {
+                        window.accordionGroup = new accordion();
+                    }
+                    accordionGroup.init(document.getElementById('01623675cf9d470d8ebdf61e6bcb5887'));
+                </script>
+
+    </div>
+</div>
+
+			</div>
+			<aside class="col-12 col-lg-3">
+				
+        <div class="card my-3 related-links card--color-block gray" data-placeholder="aside" data-rendering="Related Links">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <h2 class="card-header">Tuition &amp; Financial Aid</h2>
+                    </div>
+                </div>
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <div class="card-content">
+                            <div>
+                                <nav>
+
+    <ul class="mb-spacing-0 list-unstyled link-list" >
+                <li>
+                        <a href="https://campus.snhu.edu/tuition-and-financial-aid/campus-tuition"  class="flex-shrink-1 " >
+                            Campus Tuition
+                        </a>
+                </li>
+                <li>
+                        <a href="/tuition-and-financial-aid/paying-for-college"  class="flex-shrink-1 " >
+                            How to Pay for College
+                        </a>
+                </li>
+    </ul>
+
+
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	<div class="card my-3" data-placeholder="aside" data-rendering="Program Finder Widget">
+		<div class="row no-gutters">
+			<div class="col">
+				<h2 class="card-header">Find Your Program</h2>
+			</div>
+		</div>
+		<div class="card-body">
+			<div class="row no-gutters">
+				<div class="col">
+					<div class="card-content">
+						<div>
+							<form class="pf-widget">
+								<div class="form-group">
+									<label for="degree-level" class="sr-only">Select Degree Level</label>
+									<select class="custom-select" id="degree-level" name="degree-level">
+										<option value="All" selected>Select a Degree Level</option>
+										<option value="{461407F8-CA47-4AA5-950F-AD5A9664C345}">Associate</option>
+										<option value="{D8330C4A-49A6-4F5C-924F-EE89A624EE9F}">Bachelors</option>
+										<option value="{E12C9B7F-2309-4D69-A04C-F3A11A261345}">Certificates</option>
+										<option value="{C566B141-2C37-41C5-93F4-4ECA8F72112B}">Doctoral</option>
+										<option value="{B6AEB7DE-3E2B-4D03-9D5E-569F08269FB0}">Masters</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="category" class="sr-only">Select Category</label>
+									<select class="custom-select" id="category" name="category">
+										<option value="All" selected>All Categories</option>
+										<option value="{261FE1DF-03D3-4B1E-932C-4B1E464DB737}">Accelerated Programs</option>
+										<option value="{F706F72C-9275-46D5-B5D7-846FE27F89A3}">Accounting &amp; Finance</option>
+										<option value="{3739DC37-368C-416E-9966-EE8395C68E8A}">Aeronautics &amp; Aviation</option>
+										<option value="{DA60385B-3C8F-451D-93A4-C6760CD66870}">Art &amp; Design</option>
+										<option value="{155A3347-4DBF-4967-A884-F6465250F714}">Business</option>
+										<option value="{4FCBE261-07A0-4437-95DF-6B835DD95175}">Communications</option>
+										<option value="{F20A65E5-3844-4DE8-A77C-589F856332A9}">Creative Writing &amp; English</option>
+										<option value="{10A23C19-70C1-44AC-ABDC-6799407798FB}">Criminal Justice</option>
+										<option value="{F19DA2D6-6D42-429E-BB2B-610DB46ECF3E}">Data Analytics</option>
+										<option value="{BF2B1F52-57B7-4AFC-B4A6-D3464CBE5D61}">Economics</option>
+										<option value="{12E40A83-07DE-4644-B917-64FB351B9705}">Education</option>
+										<option value="{FC67C537-0E92-4829-AF44-3EE6E21B24DF}">Engineering</option>
+										<option value="{5A3245BB-EAC0-4308-ADE6-7F3A412F57E1}">Environmental</option>
+										<option value="{EE7B339B-7ECD-46DF-B305-46AED46E06AD}">Game Design &amp; Development</option>
+										<option value="{BA6308A7-9E0C-4878-A36C-9A113288BA80}">Geospatial Technology</option>
+										<option value="{15AF7CF5-E0F3-4FA4-B707-D43DC1A8BF80}">Healthcare</option>
+										<option value="{E9A4558B-16C8-46EC-AF1C-3B199AE7B4AC}">History</option>
+										<option value="{D85EDF60-8C1A-4C0B-9D78-10FF734DF50C}">Human Resources</option>
+										<option value="{8A708B07-8857-4999-B7D5-BD545428C605}">Liberal Arts</option>
+										<option value="{977B24DA-FDB5-43B5-8F02-C8BED0BB3F4F}">Marketing</option>
+										<option value="{70AD6818-FDB4-40DB-905D-84FEED89BD3E}">Math &amp; Science</option>
+										<option value="{27741C09-3223-461E-8A07-5304EDC211BF}">MBA</option>
+										<option value="{87B99EE7-2877-4916-BF7E-CEBDB6A85FBB}">Nursing</option>
+										<option value="{F8ADEF9F-E397-4B36-A1C9-6FB8DB6EABD1}">Operations &amp; Project Management</option>
+										<option value="{1747D1CB-F973-46E7-A53B-338249BBEDF6}">Psychology</option>
+										<option value="{821E427A-E374-4082-96EA-D12BC4AA41A4}">Public Administration</option>
+										<option value="{A26151C0-3DE6-4454-A97F-B9056980B98F}">Social Sciences</option>
+										<option value="{317D0D4B-2FA8-49B6-B3C6-B5C41A06E242}">Sport Management &amp; Athletic Admin</option>
+										<option value="{3EEC9F57-CE46-4297-AA62-D1EC4BC53FF5}">Technology</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<a class="btn btn-cta btn-block" href="/program-finder" role="button" data-pf-widget>Find Program</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="card-group" data-placeholder="aside" data-rendering="Contact Box">
+				<div class="row no-gutters card-group-header">
+					<H2>Contact Us</H2>
+				</div>
+			<div class="row no-gutters card-group-body">
+				
+		<div class="col-12 col-lg-12">
+            <div class="card control card-minimal" data-placeholder="/aside/contact-card-{F74F348F-9804-494D-AEFD-500F55B82A0B}-0" data-rendering="Contact">
+                <div class="card-body">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="card-content">
+                                <div>
+                                    <address>
+                                            <div class="font-weight-bold">
+                                                Student Financial Services
+                                                
+                                            </div>
+                                                                                                                                                                                                            <div><a href="tel:877.455.7648">877.455.7648</a></div>
+                                                                                    <div><a href="mailto:studentfinance@snhu.edu">studentfinance@snhu.edu</a></div>
+                                                                                                                                                            </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+		</div>
+
+
+			</div>
+		</div>
+
+			</aside>
+		</div>
+	</div>
+</main>
+
+
+
+
+
+    
+<footer>
+    <div>
+        		<nav class="text-center footer-utility" aria-label="Footer Utility Links" data-placeholder="footer-top-row" data-rendering="Footer Utility Nav">
+
+    <ul class="mb-spacing-0 link-list" >
+                <li>
+                        <a href="https://my.snhu.edu/"   target="_blank"    class="flex-shrink-1 " >
+                            my.SNHU Login
+                        </a>
+                </li>
+                <li>
+                        <a href="/admission/academic-catalogs"   target="_blank"    class="flex-shrink-1 " >
+                            Academic Catalogs
+                        </a>
+                </li>
+                <li>
+                        <a href="/about-us/university-store"   target="_blank"    class="flex-shrink-1 " >
+                            University Store
+                        </a>
+                </li>
+                <li>
+                        <a href="https://admission.snhu.edu/"   target="_blank"    class="flex-shrink-1 " >
+                            Admission Portal Login
+                        </a>
+                </li>
+    </ul>
+
+
+
+
+    <ul class="mb-spacing-0 link-list" >
+                <li>
+                        <a href="https://www.snhupenmen.com/landing/index"   target="_blank"    class="flex-shrink-1 " >
+                            Athletics
+                        </a>
+                </li>
+                <li>
+                        <a href="https://campus.snhu.edu/student-life/international"   target="_blank"    class="flex-shrink-1 " >
+                            International
+                        </a>
+                </li>
+                <li>
+                        <a href="https://jobs.snhu.edu"   target="_blank"    class="flex-shrink-1 " >
+                            Employment
+                        </a>
+                </li>
+                <li>
+                        <a href="https://campus.snhu.edu/student-life/library"   target="_blank"    class="flex-shrink-1 " >
+                            Library
+                        </a>
+                </li>
+    </ul>
+
+		</nav>
+
+    </div>
+    <div>
+        <hr />
+        
+		<address class="signature" data-placeholder="footer-bottom-row" data-rendering="Marketing Site Identity">
+			<div class="main-rows">
+				<div>
+					Copyright &copy; 2026
+				</div>
+				<b>Southern New Hampshire University</b>
+			</div>
+			<div class="main-rows">
+				<div>2500 North River Road</div>
+				<div>Manchester, NH 03106</div>
+			</div>
+		</address>
+		<nav aria-label="Footer Links" data-placeholder="footer-bottom-row" data-rendering="Footer Bottom Links">
+			<div class="text-center">
+
+    <ul class="mb-spacing-0 link-list" >
+                <li>
+                        <a href="/about-us/contact-us"   target="_blank"    class="flex-shrink-1 " >
+                            Contact Us
+                        </a>
+                </li>
+                <li>
+                        <a href="/consumer-information"   target="_blank"    class="flex-shrink-1 " >
+                            Consumer Information
+                        </a>
+                </li>
+                <li>
+                        <a href="/sitemap"   target="_blank"    class="flex-shrink-1 " >
+                            Site Map
+                        </a>
+                </li>
+                <li>
+                        <a href="/privacy-policy"   target="_blank"    class="flex-shrink-1 " >
+                            Privacy Policy
+                        </a>
+                </li>
+                <li>
+                        <a href="/about-us/accessibility"   target="_blank"    class="flex-shrink-1 " >
+                            Accessibility at SNHU
+                        </a>
+                </li>
+                <li>
+                        <a href="/privacy-policy/sms-terms-and-conditions"   target="_blank"    class="flex-shrink-1 " >
+                            SMS Terms &amp; Conditions
+                        </a>
+                </li>
+    </ul>
+
+
+			</div>
+		</nav>
+
+    </div>
+
+    
+<div class="social-links" role="group">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/snhu" aria-label="Follow Us on Facebook" target="_blank" rel="noreferrer noopener">
+                <span class="icon icon-facebook--white" aria-hidden="true"></span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/school/snhu" aria-label="Follow Us on LinkedIn" target="_blank" rel="noreferrer noopener">
+                <span class="icon icon-linkedin--white" aria-hidden="true"></span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCcyOlIJee-Q1cGD2Dmf1rCA" aria-label="Follow Us on YouTube" target="_blank" rel="noreferrer noopener">
+                <span class="icon icon-youtube--white" aria-hidden="true"></span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/snhu" aria-label="Follow Us on Instagram" target="_blank" rel="noreferrer noopener">
+                <span class="icon icon-instagram--white" aria-hidden="true"></span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.tiktok.com/@snhu" aria-label="Follow Us on TikTok" target="_blank" rel="noreferrer noopener">
+                <span class="icon icon-tiktok--white" aria-hidden="true"></span>
+            </a>
+        </li>
+    </ul>
+</div></footer>
+
+
+    <script>
+	var dataLayer = window.dataLayer = window.dataLayer || [];
+
+	dataLayer.push({ "event": "dimensionsWritten" });
+    </script>
+</body>
+</html>
